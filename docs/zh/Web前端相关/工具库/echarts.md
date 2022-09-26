@@ -1,14 +1,6 @@
 ---
 title: 快速上手
-date: '2022-04-03 20:05'
-sidebar: 'auto'
-categories:
-- 笔记
-tags: 
-- ECharts
-publish: true
-showSponsor: ture
-autoGroup-2: 图表
+date: 2022-04-03
 ---
 
 ##  监听图表容器的大小并改变图表大小
