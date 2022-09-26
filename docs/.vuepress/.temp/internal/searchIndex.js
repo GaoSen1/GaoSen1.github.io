@@ -805,6 +805,136 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "快速上手",
+    "headers": [
+      {
+        "level": 2,
+        "title": "监听图表容器的大小并改变图表大小",
+        "slug": "监听图表容器的大小并改变图表大小",
+        "link": "#监听图表容器的大小并改变图表大小",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "容器节点被销毁以及被重建时",
+        "slug": "容器节点被销毁以及被重建时",
+        "link": "#容器节点被销毁以及被重建时",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "在数据集中设置数据",
+        "slug": "在数据集中设置数据",
+        "link": "#在数据集中设置数据",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用 transform 进行数据转换",
+        "slug": "使用-transform-进行数据转换",
+        "link": "#使用-transform-进行数据转换",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "维度dimension",
+        "slug": "维度dimension",
+        "link": "#维度dimension",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "数据到图形的映射(series.encode)",
+        "slug": "数据到图形的映射-series-encode",
+        "link": "#数据到图形的映射-series-encode",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "几个常见的 series.encode 设置方式举例",
+        "slug": "几个常见的-series-encode-设置方式举例",
+        "link": "#几个常见的-series-encode-设置方式举例",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "应用",
+        "slug": "应用",
+        "link": "#应用",
+        "children": [
+          {
+            "level": 3,
+            "title": "动态排序柱状图",
+            "slug": "动态排序柱状图",
+            "link": "#动态排序柱状图",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "阶梯线图",
+            "slug": "阶梯线图",
+            "link": "#阶梯线图",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/echarts.html",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "写在前面",
+    "headers": [
+      {
+        "level": 2,
+        "title": "工具库",
+        "slug": "工具库",
+        "link": "#工具库",
+        "children": []
+      }
+    ],
+    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "地图",
+    "headers": [],
+    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%9C%B0%E5%9B%BE.html",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "引用特殊字体的几种方案",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.有字库",
+        "slug": "_1-有字库",
+        "link": "#_1-有字库",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.字蛛",
+        "slug": "_2-字蛛",
+        "link": "#_2-字蛛",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.最终方案：Fontmin",
+        "slug": "_3-最终方案-fontmin",
+        "link": "#_3-最终方案-fontmin",
+        "children": []
+      }
+    ],
+    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%BC%95%E7%94%A8%E5%AD%97%E4%BD%93.html",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
     "title": "写在前面",
     "headers": [
       {
@@ -984,132 +1114,104 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "快速上手",
-    "headers": [
-      {
-        "level": 2,
-        "title": "监听图表容器的大小并改变图表大小",
-        "slug": "监听图表容器的大小并改变图表大小",
-        "link": "#监听图表容器的大小并改变图表大小",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "容器节点被销毁以及被重建时",
-        "slug": "容器节点被销毁以及被重建时",
-        "link": "#容器节点被销毁以及被重建时",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "在数据集中设置数据",
-        "slug": "在数据集中设置数据",
-        "link": "#在数据集中设置数据",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "使用 transform 进行数据转换",
-        "slug": "使用-transform-进行数据转换",
-        "link": "#使用-transform-进行数据转换",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "维度dimension",
-        "slug": "维度dimension",
-        "link": "#维度dimension",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "数据到图形的映射(series.encode)",
-        "slug": "数据到图形的映射-series-encode",
-        "link": "#数据到图形的映射-series-encode",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "几个常见的 series.encode 设置方式举例",
-        "slug": "几个常见的-series-encode-设置方式举例",
-        "link": "#几个常见的-series-encode-设置方式举例",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "应用",
-        "slug": "应用",
-        "link": "#应用",
-        "children": [
-          {
-            "level": 3,
-            "title": "动态排序柱状图",
-            "slug": "动态排序柱状图",
-            "link": "#动态排序柱状图",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "阶梯线图",
-            "slug": "阶梯线图",
-            "link": "#阶梯线图",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/echarts.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
     "title": "写在前面",
     "headers": [
       {
         "level": 2,
-        "title": "工具库",
-        "slug": "工具库",
-        "link": "#工具库",
+        "title": "单片机实验",
+        "slug": "单片机实验",
+        "link": "#单片机实验",
         "children": []
       }
     ],
-    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/",
+    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E5%8D%95%E7%89%87%E6%9C%BA%E5%AE%9E%E9%AA%8C/",
     "pathLocale": "/zh/",
     "extraFields": []
   },
   {
-    "title": "地图",
-    "headers": [],
-    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%9C%B0%E5%9B%BE.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "引用特殊字体的几种方案",
+    "title": "电子时钟",
     "headers": [
       {
         "level": 2,
-        "title": "1.有字库",
-        "slug": "_1-有字库",
-        "link": "#_1-有字库",
+        "title": "前言",
+        "slug": "前言",
+        "link": "#前言",
+        "children": [
+          {
+            "level": 3,
+            "title": "背景",
+            "slug": "背景",
+            "link": "#背景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "定义",
+            "slug": "定义",
+            "link": "#定义",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "需求分析",
+            "slug": "需求分析",
+            "link": "#需求分析",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结",
+            "link": "#总结",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "详细设计",
+        "slug": "详细设计",
+        "link": "#详细设计",
+        "children": [
+          {
+            "level": 3,
+            "title": "功能分析",
+            "slug": "功能分析",
+            "link": "#功能分析",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "工作原理",
+            "slug": "工作原理",
+            "link": "#工作原理",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "效果演示",
+        "slug": "效果演示",
+        "link": "#效果演示",
         "children": []
       },
       {
         "level": 2,
-        "title": "2.字蛛",
-        "slug": "_2-字蛛",
-        "link": "#_2-字蛛",
+        "title": "main.c：",
+        "slug": "main-c",
+        "link": "#main-c",
         "children": []
       },
       {
         "level": 2,
-        "title": "3.最终方案：Fontmin",
-        "slug": "_3-最终方案-fontmin",
-        "link": "#_3-最终方案-fontmin",
+        "title": "seg7.c:",
+        "slug": "seg7-c",
+        "link": "#seg7-c",
         "children": []
       }
     ],
-    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%BC%95%E7%94%A8%E5%AD%97%E4%BD%93.html",
+    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E5%8D%95%E7%89%87%E6%9C%BA%E5%AE%9E%E9%AA%8C/%E7%94%B5%E5%AD%90%E6%97%B6%E9%92%9F.html",
     "pathLocale": "/zh/",
     "extraFields": []
   },
@@ -1745,108 +1847,6 @@ export const searchIndex = [
       }
     ],
     "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "写在前面",
-    "headers": [
-      {
-        "level": 2,
-        "title": "单片机实验",
-        "slug": "单片机实验",
-        "link": "#单片机实验",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E5%8D%95%E7%89%87%E6%9C%BA%E5%AE%9E%E9%AA%8C/",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "电子时钟",
-    "headers": [
-      {
-        "level": 2,
-        "title": "前言",
-        "slug": "前言",
-        "link": "#前言",
-        "children": [
-          {
-            "level": 3,
-            "title": "背景",
-            "slug": "背景",
-            "link": "#背景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "定义",
-            "slug": "定义",
-            "link": "#定义",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "需求分析",
-            "slug": "需求分析",
-            "link": "#需求分析",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结",
-            "link": "#总结",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "详细设计",
-        "slug": "详细设计",
-        "link": "#详细设计",
-        "children": [
-          {
-            "level": 3,
-            "title": "功能分析",
-            "slug": "功能分析",
-            "link": "#功能分析",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "工作原理",
-            "slug": "工作原理",
-            "link": "#工作原理",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "效果演示",
-        "slug": "效果演示",
-        "link": "#效果演示",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "main.c：",
-        "slug": "main-c",
-        "link": "#main-c",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "seg7.c:",
-        "slug": "seg7-c",
-        "link": "#seg7-c",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E5%8D%95%E7%89%87%E6%9C%BA%E5%AE%9E%E9%AA%8C/%E7%94%B5%E5%AD%90%E6%97%B6%E9%92%9F.html",
     "pathLocale": "/zh/",
     "extraFields": []
   },
