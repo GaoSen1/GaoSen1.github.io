@@ -236,98 +236,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Banana 1",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/posts/banana/1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Banana 2",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/posts/banana/2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Banana 3",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/posts/banana/3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Banana 4",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/posts/banana/4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Apple 1",
     "headers": [
       {
@@ -416,6 +324,98 @@ export const searchIndex = [
       }
     ],
     "path": "/posts/apple/4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Banana 1",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/posts/banana/1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Banana 2",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/posts/banana/2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Banana 3",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/posts/banana/3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Banana 4",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/posts/banana/4.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -805,136 +805,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "快速上手",
-    "headers": [
-      {
-        "level": 2,
-        "title": "监听图表容器的大小并改变图表大小",
-        "slug": "监听图表容器的大小并改变图表大小",
-        "link": "#监听图表容器的大小并改变图表大小",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "容器节点被销毁以及被重建时",
-        "slug": "容器节点被销毁以及被重建时",
-        "link": "#容器节点被销毁以及被重建时",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "在数据集中设置数据",
-        "slug": "在数据集中设置数据",
-        "link": "#在数据集中设置数据",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "使用 transform 进行数据转换",
-        "slug": "使用-transform-进行数据转换",
-        "link": "#使用-transform-进行数据转换",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "维度dimension",
-        "slug": "维度dimension",
-        "link": "#维度dimension",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "数据到图形的映射(series.encode)",
-        "slug": "数据到图形的映射-series-encode",
-        "link": "#数据到图形的映射-series-encode",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "几个常见的 series.encode 设置方式举例",
-        "slug": "几个常见的-series-encode-设置方式举例",
-        "link": "#几个常见的-series-encode-设置方式举例",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "应用",
-        "slug": "应用",
-        "link": "#应用",
-        "children": [
-          {
-            "level": 3,
-            "title": "动态排序柱状图",
-            "slug": "动态排序柱状图",
-            "link": "#动态排序柱状图",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "阶梯线图",
-            "slug": "阶梯线图",
-            "link": "#阶梯线图",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/echarts.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "写在前面",
-    "headers": [
-      {
-        "level": 2,
-        "title": "工具库",
-        "slug": "工具库",
-        "link": "#工具库",
-        "children": []
-      }
-    ],
-    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "地图",
-    "headers": [],
-    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%9C%B0%E5%9B%BE.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "引用特殊字体的几种方案",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.有字库",
-        "slug": "_1-有字库",
-        "link": "#_1-有字库",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.字蛛",
-        "slug": "_2-字蛛",
-        "link": "#_2-字蛛",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.最终方案：Fontmin",
-        "slug": "_3-最终方案-fontmin",
-        "link": "#_3-最终方案-fontmin",
-        "children": []
-      }
-    ],
-    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%BC%95%E7%94%A8%E5%AD%97%E4%BD%93.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
     "title": "写在前面",
     "headers": [
       {
@@ -1114,123 +984,55 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "写在前面",
+    "title": "快速上手",
     "headers": [
       {
         "level": 2,
-        "title": "工具库",
-        "slug": "工具库",
-        "link": "#工具库",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%B7%AF/",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "压控振荡器",
-    "headers": [
-      {
-        "level": 2,
-        "title": "定义",
-        "slug": "定义",
-        "link": "#定义",
+        "title": "监听图表容器的大小并改变图表大小",
+        "slug": "监听图表容器的大小并改变图表大小",
+        "link": "#监听图表容器的大小并改变图表大小",
         "children": []
       },
       {
         "level": 2,
-        "title": "最简单的VCO",
-        "slug": "最简单的vco",
-        "link": "#最简单的vco",
+        "title": "容器节点被销毁以及被重建时",
+        "slug": "容器节点被销毁以及被重建时",
+        "link": "#容器节点被销毁以及被重建时",
         "children": []
       },
       {
         "level": 2,
-        "title": "压频转换VFC(Voltage to Frequency Convertor)",
-        "slug": "压频转换vfc-voltage-to-frequency-convertor",
-        "link": "#压频转换vfc-voltage-to-frequency-convertor",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%B7%AF/%E5%8E%8B%E6%8E%A7%E6%8C%AF%E8%8D%A1%E5%99%A8.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "滤波器",
-    "headers": [
-      {
-        "level": 2,
-        "title": "截止频率与所选电容的参考对照表",
-        "slug": "截止频率与所选电容的参考对照表",
-        "link": "#截止频率与所选电容的参考对照表",
+        "title": "在数据集中设置数据",
+        "slug": "在数据集中设置数据",
+        "link": "#在数据集中设置数据",
         "children": []
       },
       {
         "level": 2,
-        "title": "低通滤波器",
-        "slug": "低通滤波器",
-        "link": "#低通滤波器",
-        "children": [
-          {
-            "level": 3,
-            "title": "一阶有源低通",
-            "slug": "一阶有源低通",
-            "link": "#一阶有源低通",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二阶压控电压源低通滤波器",
-            "slug": "二阶压控电压源低通滤波器",
-            "link": "#二阶压控电压源低通滤波器",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%B7%AF/%E6%BB%A4%E6%B3%A2%E5%99%A8.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "积分器",
-    "headers": [
-      {
-        "level": 2,
-        "title": "基本积分电路",
-        "slug": "基本积分电路",
-        "link": "#基本积分电路",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%B7%AF/%E7%A7%AF%E5%88%86%E5%99%A8.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "CD4046",
-    "headers": [
-      {
-        "level": 2,
-        "title": "概念",
-        "slug": "概念",
-        "link": "#概念",
+        "title": "使用 transform 进行数据转换",
+        "slug": "使用-transform-进行数据转换",
+        "link": "#使用-transform-进行数据转换",
         "children": []
       },
       {
         "level": 2,
-        "title": "封装",
-        "slug": "封装",
-        "link": "#封装",
+        "title": "维度dimension",
+        "slug": "维度dimension",
+        "link": "#维度dimension",
         "children": []
       },
       {
         "level": 2,
-        "title": "工作原理",
-        "slug": "工作原理",
-        "link": "#工作原理",
+        "title": "数据到图形的映射(series.encode)",
+        "slug": "数据到图形的映射-series-encode",
+        "link": "#数据到图形的映射-series-encode",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "几个常见的 series.encode 设置方式举例",
+        "slug": "几个常见的-series-encode-设置方式举例",
+        "link": "#几个常见的-series-encode-设置方式举例",
         "children": []
       },
       {
@@ -1241,58 +1043,22 @@ export const searchIndex = [
         "children": [
           {
             "level": 3,
-            "title": "方波发生器",
-            "slug": "方波发生器",
-            "link": "#方波发生器",
+            "title": "动态排序柱状图",
+            "slug": "动态排序柱状图",
+            "link": "#动态排序柱状图",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "阶梯线图",
+            "slug": "阶梯线图",
+            "link": "#阶梯线图",
             "children": []
           }
         ]
       }
     ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E8%8A%AF%E7%89%87/CD4046.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "DDS",
-    "headers": [
-      {
-        "level": 2,
-        "title": "介绍",
-        "slug": "介绍",
-        "link": "#介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "DDS工作原理",
-        "slug": "dds工作原理",
-        "link": "#dds工作原理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "DDS技术的弊端",
-        "slug": "dds技术的弊端",
-        "link": "#dds技术的弊端",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "电流输出DDS",
-        "slug": "电流输出dds",
-        "link": "#电流输出dds",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "AD9959",
-        "slug": "ad9959",
-        "link": "#ad9959",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E8%8A%AF%E7%89%87/DDS.html",
+    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/echarts.html",
     "pathLocale": "/zh/",
     "extraFields": []
   },
@@ -1301,299 +1067,49 @@ export const searchIndex = [
     "headers": [
       {
         "level": 2,
-        "title": "常用芯片",
-        "slug": "常用芯片",
-        "link": "#常用芯片",
+        "title": "工具库",
+        "slug": "工具库",
+        "link": "#工具库",
         "children": []
       }
     ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E8%8A%AF%E7%89%87/",
+    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/",
     "pathLocale": "/zh/",
     "extraFields": []
   },
   {
-    "title": "继电器",
+    "title": "地图",
     "headers": [],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E8%8A%AF%E7%89%87/%E7%BB%A7%E7%94%B5%E5%99%A8.html",
+    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%9C%B0%E5%9B%BE.html",
     "pathLocale": "/zh/",
     "extraFields": []
   },
   {
-    "title": "写在前面",
+    "title": "引用特殊字体的几种方案",
     "headers": [
       {
         "level": 2,
-        "title": "此专栏为博主的专业课设实验，计划将全部实验集成到个人博客中，非常的银杏😋",
-        "slug": "此专栏为博主的专业课设实验-计划将全部实验集成到个人博客中-非常的银杏",
-        "link": "#此专栏为博主的专业课设实验-计划将全部实验集成到个人博客中-非常的银杏",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E6%94%BE%E5%A4%A7%E5%99%A8/",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "放大器",
-    "headers": [
-      {
-        "level": 2,
-        "title": "放大器的全家谱",
-        "slug": "放大器的全家谱",
-        "link": "#放大器的全家谱",
-        "children": [
-          {
-            "level": 3,
-            "title": "晶体管",
-            "slug": "晶体管",
-            "link": "#晶体管",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "运算放大器",
-            "slug": "运算放大器",
-            "link": "#运算放大器",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "功能放大器",
-            "slug": "功能放大器",
-            "link": "#功能放大器",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "运放的关键指标",
-        "slug": "运放的关键指标",
-        "link": "#运放的关键指标",
-        "children": [
-          {
-            "level": 3,
-            "title": "输入失调电压（Offset Voltage,）",
-            "slug": "输入失调电压-offset-voltage",
-            "link": "#输入失调电压-offset-voltage",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "失调电压漂移（Offset Voltage Drift)",
-            "slug": "失调电压漂移-offset-voltage-drift",
-            "link": "#失调电压漂移-offset-voltage-drift",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "输入偏置电流（Input bias current，）",
-            "slug": "输入偏置电流-input-bias-current",
-            "link": "#输入偏置电流-input-bias-current",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "输入失调电流（Input offset current，）",
-            "slug": "输入失调电流-input-offset-current",
-            "link": "#输入失调电流-input-offset-current",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "关于失调和偏置的总结",
-            "slug": "关于失调和偏置的总结",
-            "link": "#关于失调和偏置的总结",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "运放电路外部电阻的选择",
-            "slug": "运放电路外部电阻的选择",
-            "link": "#运放电路外部电阻的选择",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "噪声指标",
-            "slug": "噪声指标",
-            "link": "#噪声指标",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "初识噪声",
-            "slug": "初识噪声",
-            "link": "#初识噪声",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "噪声的有效值和峰峰值关系",
-            "slug": "噪声的有效值和峰峰值关系",
-            "link": "#噪声的有效值和峰峰值关系",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "输入电压范围（Input Voltage Range）",
-            "slug": "输入电压范围-input-voltage-range",
-            "link": "#输入电压范围-input-voltage-range",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "输出电压范围（或者Swing from rail）",
-            "slug": "输出电压范围-或者swing-from-rail",
-            "link": "#输出电压范围-或者swing-from-rail",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "共模抑制比（Common-mode rejection ratio，CMRR）",
-            "slug": "共模抑制比-common-mode-rejection-ratio-cmrr",
-            "link": "#共模抑制比-common-mode-rejection-ratio-cmrr",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开环电压增益（Open-loop gain，）",
-            "slug": "开环电压增益-open-loop-gain",
-            "link": "#开环电压增益-open-loop-gain",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "压摆率（Slew rate，SR）",
-            "slug": "压摆率-slew-rate-sr",
-            "link": "#压摆率-slew-rate-sr",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "单位增益带宽（Unity Gain-bandwidth，UGBW）—f1",
-            "slug": "单位增益带宽-unity-gain-bandwidth-ugbw-—f1",
-            "link": "#单位增益带宽-unity-gain-bandwidth-ugbw-—f1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "增益带宽积（Gain Bandwidth Product，GBP或者GBW）—f2",
-            "slug": "增益带宽积-gain-bandwidth-product-gbp或者gbw-—f2",
-            "link": "#增益带宽积-gain-bandwidth-product-gbp或者gbw-—f2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "-3dB带宽—f3",
-            "slug": "_3db带宽—f3",
-            "link": "#_3db带宽—f3",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "满功率带宽(Full Power Bandwidth)—f0",
-            "slug": "满功率带宽-full-power-bandwidth-—f0",
-            "link": "#满功率带宽-full-power-bandwidth-—f0",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "满功率带宽(Full Power Bandwidth)—f0",
-            "slug": "满功率带宽-full-power-bandwidth-—f0-1",
-            "link": "#满功率带宽-full-power-bandwidth-—f0-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "举例说明",
-            "slug": "举例说明",
-            "link": "#举例说明",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "建立时间（Settling Time）",
-            "slug": "建立时间-settling-time",
-            "link": "#建立时间-settling-time",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "相位裕度（Phase margin，）和增益裕度",
-            "slug": "相位裕度-phase-margin-和增益裕度",
-            "link": "#相位裕度-phase-margin-和增益裕度",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "电源电压抑制比（PSRR-Power Supply Rejection Ratio）",
-            "slug": "电源电压抑制比-psrr-power-supply-rejection-ratio",
-            "link": "#电源电压抑制比-psrr-power-supply-rejection-ratio",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "全谐波失真加噪声THD+Noise",
-            "slug": "全谐波失真加噪声thd-noise",
-            "link": "#全谐波失真加噪声thd-noise",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "热阻（Thermal resistance，）和温度范围",
-            "slug": "热阻-thermal-resistance-和温度范围",
-            "link": "#热阻-thermal-resistance-和温度范围",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "放大器的封装",
-        "slug": "放大器的封装",
-        "link": "#放大器的封装",
+        "title": "1.有字库",
+        "slug": "_1-有字库",
+        "link": "#_1-有字库",
         "children": []
       },
       {
         "level": 2,
-        "title": "供电和电源去耦",
-        "slug": "供电和电源去耦",
-        "link": "#供电和电源去耦",
-        "children": [
-          {
-            "level": 3,
-            "title": "库电容",
-            "slug": "库电容",
-            "link": "#库电容",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "旁路电容",
-            "slug": "旁路电容",
-            "link": "#旁路电容",
-            "children": []
-          }
-        ]
+        "title": "2.字蛛",
+        "slug": "_2-字蛛",
+        "link": "#_2-字蛛",
+        "children": []
       },
       {
         "level": 2,
-        "title": "ADC驱动电路",
-        "slug": "adc驱动电路",
-        "link": "#adc驱动电路",
-        "children": [
-          {
-            "level": 3,
-            "title": "单电源标准运放ADC驱动电路",
-            "slug": "单电源标准运放adc驱动电路",
-            "link": "#单电源标准运放adc驱动电路",
-            "children": []
-          }
-        ]
+        "title": "3.最终方案：Fontmin",
+        "slug": "_3-最终方案-fontmin",
+        "link": "#_3-最终方案-fontmin",
+        "children": []
       }
     ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E6%94%BE%E5%A4%A7%E5%99%A8/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%94%BE%E5%A4%A7%E5%99%A8.html",
+    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%BC%95%E7%94%A8%E5%AD%97%E4%BD%93.html",
     "pathLocale": "/zh/",
     "extraFields": []
   },
@@ -3167,6 +2683,490 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "写在前面",
+    "headers": [
+      {
+        "level": 2,
+        "title": "工具库",
+        "slug": "工具库",
+        "link": "#工具库",
+        "children": []
+      }
+    ],
+    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%B7%AF/",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "压控振荡器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "定义",
+        "slug": "定义",
+        "link": "#定义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "最简单的VCO",
+        "slug": "最简单的vco",
+        "link": "#最简单的vco",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "压频转换VFC(Voltage to Frequency Convertor)",
+        "slug": "压频转换vfc-voltage-to-frequency-convertor",
+        "link": "#压频转换vfc-voltage-to-frequency-convertor",
+        "children": []
+      }
+    ],
+    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%B7%AF/%E5%8E%8B%E6%8E%A7%E6%8C%AF%E8%8D%A1%E5%99%A8.html",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "滤波器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "截止频率与所选电容的参考对照表",
+        "slug": "截止频率与所选电容的参考对照表",
+        "link": "#截止频率与所选电容的参考对照表",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "低通滤波器",
+        "slug": "低通滤波器",
+        "link": "#低通滤波器",
+        "children": [
+          {
+            "level": 3,
+            "title": "一阶有源低通",
+            "slug": "一阶有源低通",
+            "link": "#一阶有源低通",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二阶压控电压源低通滤波器",
+            "slug": "二阶压控电压源低通滤波器",
+            "link": "#二阶压控电压源低通滤波器",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%B7%AF/%E6%BB%A4%E6%B3%A2%E5%99%A8.html",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "积分器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "基本积分电路",
+        "slug": "基本积分电路",
+        "link": "#基本积分电路",
+        "children": []
+      }
+    ],
+    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%B7%AF/%E7%A7%AF%E5%88%86%E5%99%A8.html",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "CD4046",
+    "headers": [
+      {
+        "level": 2,
+        "title": "概念",
+        "slug": "概念",
+        "link": "#概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "封装",
+        "slug": "封装",
+        "link": "#封装",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "工作原理",
+        "slug": "工作原理",
+        "link": "#工作原理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "应用",
+        "slug": "应用",
+        "link": "#应用",
+        "children": [
+          {
+            "level": 3,
+            "title": "方波发生器",
+            "slug": "方波发生器",
+            "link": "#方波发生器",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E8%8A%AF%E7%89%87/CD4046.html",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "DDS",
+    "headers": [
+      {
+        "level": 2,
+        "title": "介绍",
+        "slug": "介绍",
+        "link": "#介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "DDS工作原理",
+        "slug": "dds工作原理",
+        "link": "#dds工作原理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "DDS技术的弊端",
+        "slug": "dds技术的弊端",
+        "link": "#dds技术的弊端",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "电流输出DDS",
+        "slug": "电流输出dds",
+        "link": "#电流输出dds",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "AD9959",
+        "slug": "ad9959",
+        "link": "#ad9959",
+        "children": []
+      }
+    ],
+    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E8%8A%AF%E7%89%87/DDS.html",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "写在前面",
+    "headers": [
+      {
+        "level": 2,
+        "title": "常用芯片",
+        "slug": "常用芯片",
+        "link": "#常用芯片",
+        "children": []
+      }
+    ],
+    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E8%8A%AF%E7%89%87/",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "继电器",
+    "headers": [],
+    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E8%8A%AF%E7%89%87/%E7%BB%A7%E7%94%B5%E5%99%A8.html",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "写在前面",
+    "headers": [
+      {
+        "level": 2,
+        "title": "此专栏为博主的专业课设实验，计划将全部实验集成到个人博客中，非常的银杏😋",
+        "slug": "此专栏为博主的专业课设实验-计划将全部实验集成到个人博客中-非常的银杏",
+        "link": "#此专栏为博主的专业课设实验-计划将全部实验集成到个人博客中-非常的银杏",
+        "children": []
+      }
+    ],
+    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E6%94%BE%E5%A4%A7%E5%99%A8/",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "放大器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "放大器的全家谱",
+        "slug": "放大器的全家谱",
+        "link": "#放大器的全家谱",
+        "children": [
+          {
+            "level": 3,
+            "title": "晶体管",
+            "slug": "晶体管",
+            "link": "#晶体管",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "运算放大器",
+            "slug": "运算放大器",
+            "link": "#运算放大器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "功能放大器",
+            "slug": "功能放大器",
+            "link": "#功能放大器",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "运放的关键指标",
+        "slug": "运放的关键指标",
+        "link": "#运放的关键指标",
+        "children": [
+          {
+            "level": 3,
+            "title": "输入失调电压（Offset Voltage,）",
+            "slug": "输入失调电压-offset-voltage",
+            "link": "#输入失调电压-offset-voltage",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "失调电压漂移（Offset Voltage Drift)",
+            "slug": "失调电压漂移-offset-voltage-drift",
+            "link": "#失调电压漂移-offset-voltage-drift",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "输入偏置电流（Input bias current，）",
+            "slug": "输入偏置电流-input-bias-current",
+            "link": "#输入偏置电流-input-bias-current",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "输入失调电流（Input offset current，）",
+            "slug": "输入失调电流-input-offset-current",
+            "link": "#输入失调电流-input-offset-current",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "关于失调和偏置的总结",
+            "slug": "关于失调和偏置的总结",
+            "link": "#关于失调和偏置的总结",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "运放电路外部电阻的选择",
+            "slug": "运放电路外部电阻的选择",
+            "link": "#运放电路外部电阻的选择",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "噪声指标",
+            "slug": "噪声指标",
+            "link": "#噪声指标",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "初识噪声",
+            "slug": "初识噪声",
+            "link": "#初识噪声",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "噪声的有效值和峰峰值关系",
+            "slug": "噪声的有效值和峰峰值关系",
+            "link": "#噪声的有效值和峰峰值关系",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "输入电压范围（Input Voltage Range）",
+            "slug": "输入电压范围-input-voltage-range",
+            "link": "#输入电压范围-input-voltage-range",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "输出电压范围（或者Swing from rail）",
+            "slug": "输出电压范围-或者swing-from-rail",
+            "link": "#输出电压范围-或者swing-from-rail",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "共模抑制比（Common-mode rejection ratio，CMRR）",
+            "slug": "共模抑制比-common-mode-rejection-ratio-cmrr",
+            "link": "#共模抑制比-common-mode-rejection-ratio-cmrr",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开环电压增益（Open-loop gain，）",
+            "slug": "开环电压增益-open-loop-gain",
+            "link": "#开环电压增益-open-loop-gain",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "压摆率（Slew rate，SR）",
+            "slug": "压摆率-slew-rate-sr",
+            "link": "#压摆率-slew-rate-sr",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "单位增益带宽（Unity Gain-bandwidth，UGBW）—f1",
+            "slug": "单位增益带宽-unity-gain-bandwidth-ugbw-—f1",
+            "link": "#单位增益带宽-unity-gain-bandwidth-ugbw-—f1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "增益带宽积（Gain Bandwidth Product，GBP或者GBW）—f2",
+            "slug": "增益带宽积-gain-bandwidth-product-gbp或者gbw-—f2",
+            "link": "#增益带宽积-gain-bandwidth-product-gbp或者gbw-—f2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "-3dB带宽—f3",
+            "slug": "_3db带宽—f3",
+            "link": "#_3db带宽—f3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "满功率带宽(Full Power Bandwidth)—f0",
+            "slug": "满功率带宽-full-power-bandwidth-—f0",
+            "link": "#满功率带宽-full-power-bandwidth-—f0",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "满功率带宽(Full Power Bandwidth)—f0",
+            "slug": "满功率带宽-full-power-bandwidth-—f0-1",
+            "link": "#满功率带宽-full-power-bandwidth-—f0-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "举例说明",
+            "slug": "举例说明",
+            "link": "#举例说明",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "建立时间（Settling Time）",
+            "slug": "建立时间-settling-time",
+            "link": "#建立时间-settling-time",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "相位裕度（Phase margin，）和增益裕度",
+            "slug": "相位裕度-phase-margin-和增益裕度",
+            "link": "#相位裕度-phase-margin-和增益裕度",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "电源电压抑制比（PSRR-Power Supply Rejection Ratio）",
+            "slug": "电源电压抑制比-psrr-power-supply-rejection-ratio",
+            "link": "#电源电压抑制比-psrr-power-supply-rejection-ratio",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "全谐波失真加噪声THD+Noise",
+            "slug": "全谐波失真加噪声thd-noise",
+            "link": "#全谐波失真加噪声thd-noise",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "热阻（Thermal resistance，）和温度范围",
+            "slug": "热阻-thermal-resistance-和温度范围",
+            "link": "#热阻-thermal-resistance-和温度范围",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "放大器的封装",
+        "slug": "放大器的封装",
+        "link": "#放大器的封装",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "供电和电源去耦",
+        "slug": "供电和电源去耦",
+        "link": "#供电和电源去耦",
+        "children": [
+          {
+            "level": 3,
+            "title": "库电容",
+            "slug": "库电容",
+            "link": "#库电容",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "旁路电容",
+            "slug": "旁路电容",
+            "link": "#旁路电容",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "ADC驱动电路",
+        "slug": "adc驱动电路",
+        "link": "#adc驱动电路",
+        "children": [
+          {
+            "level": 3,
+            "title": "单电源标准运放ADC驱动电路",
+            "slug": "单电源标准运放adc驱动电路",
+            "link": "#单电源标准运放adc驱动电路",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E6%94%BE%E5%A4%A7%E5%99%A8/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%94%BE%E5%A4%A7%E5%99%A8.html",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -3342,9 +3342,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Banana Category",
+    "title": "Apple Category",
     "headers": [],
-    "path": "/category/banana/",
+    "path": "/category/apple/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3356,9 +3356,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Apple Category",
+    "title": "Banana Category",
     "headers": [],
-    "path": "/category/apple/",
+    "path": "/category/banana/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3552,16 +3552,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "写在前面 标签",
+    "title": "专业课 标签",
     "headers": [],
-    "path": "/zh/tag/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/",
+    "path": "/zh/tag/%E4%B8%93%E4%B8%9A%E8%AF%BE/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "专业课 标签",
+    "title": "写在前面 标签",
     "headers": [],
-    "path": "/zh/tag/%E4%B8%93%E4%B8%9A%E8%AF%BE/",
+    "path": "/zh/tag/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/",
     "pathLocale": "/",
     "extraFields": []
   }
