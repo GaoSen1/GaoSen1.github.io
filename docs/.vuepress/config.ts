@@ -2,10 +2,6 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { searchPlugin } from "@vuepress/plugin-search";
 
-// import MK from 'markdown-it'
-// import UE from 'markdown-it-disable-url-encode'
-// MK().use(UE)
-
 export default defineUserConfig({
   base: "/",
 

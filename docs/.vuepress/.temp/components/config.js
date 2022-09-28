@@ -1,9 +1,9 @@
-import { useStyleTag } from "D:/CodingForFun/Vue/blog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.103/node_modules/vuepress-plugin-components/lib/client/composables/index.js";
+import { useStyleTag } from "D:/CodingForFun/Vue/blog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.104/node_modules/vuepress-plugin-components/lib/client/composables/index.js";
 import { h } from "vue";
 import { defineClientConfig } from "@vuepress/client";
-import Badge from "D:/CodingForFun/Vue/blog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.103/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import FontIcon from "D:/CodingForFun/Vue/blog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.103/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import BackToTop from "D:/CodingForFun/Vue/blog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.103/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
+import Badge from "D:/CodingForFun/Vue/blog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.104/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import FontIcon from "D:/CodingForFun/Vue/blog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.104/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import BackToTop from "D:/CodingForFun/Vue/blog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-beta.104/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
 
 
 export default defineClientConfig({

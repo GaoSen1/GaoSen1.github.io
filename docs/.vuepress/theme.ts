@@ -164,11 +164,11 @@ export default hopeTheme({
       gfm: true,
       imageSize: true,
       include: true,
-      // katex: true,
+      katex: true,
       lazyLoad: true,
       mark: true,
       mermaid: true,
-      mathjax: true,
+      // mathjax: true,
       playground: {
         presets: ["ts", "vue"],
       },
