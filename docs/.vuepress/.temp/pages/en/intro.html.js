@@ -1,14 +1,1 @@
-export const data = JSON.parse("{\"key\":\"v-5aa3d8ba\",\"path\":\"/en/intro.html\",\"title\":\"Intro Page\",\"lang\":\"en-US\",\"frontmatter\":{\"icon\":\"info\",\"summary\":\"Intro Page Place your introducation and profile here\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://www.gaosen.xyz/en/intro.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"GaoSen\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Intro Page\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"zh-CN\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"zh-cn\",\"href\":\"https://www.gaosen.xyz/intro.html\"}]]},\"excerpt\":\"\",\"headers\":[],\"readingTime\":{\"minutes\":0.03,\"words\":10},\"filePathRelative\":\"en/intro.md\"}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
+export const data = JSON.parse("{\"key\":\"v-5aa3d8ba\",\"path\":\"/en/intro.html\",\"title\":\"Intro Page\",\"lang\":\"en-US\",\"frontmatter\":{\"icon\":\"info\",\"summary\":\"Intro Page Place your introducation and profile here\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://www.gaosen.xyz/en/intro.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"GaoSen\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Intro Page\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2022-09-29T15:01:21.000Z\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2022-09-29T15:01:21.000Z\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"zh-cn\",\"href\":\"https://www.gaosen.xyz/intro.html\"}]]},\"excerpt\":\"\",\"headers\":[],\"git\":{\"createdTime\":1664463681000,\"updatedTime\":1664463681000,\"contributors\":[{\"name\":\"gao_sen_g\",\"email\":\"2322134363@qq.com\",\"commits\":1}]},\"readingTime\":{\"minutes\":0.03,\"words\":10},\"filePathRelative\":\"en/intro.md\",\"localizedDate\":\"September 29, 2022\"}")

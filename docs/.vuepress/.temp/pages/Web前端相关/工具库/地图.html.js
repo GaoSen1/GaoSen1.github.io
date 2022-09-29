@@ -1,14 +1,1 @@
-export const data = JSON.parse("{\"key\":\"v-3d079177\",\"path\":\"/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%9C%B0%E5%9B%BE.html\",\"title\":\"地图\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"地图\",\"summary\":\"\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://www.gaosen.xyz/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%9C%B0%E5%9B%BE.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"GaoSen\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"地图\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2022-05-29T15:47:00.000Z\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://www.gaosen.xyz/en/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%9C%B0%E5%9B%BE.html\"}]]},\"excerpt\":\"\",\"headers\":[],\"readingTime\":{\"minutes\":0.35,\"words\":104},\"filePathRelative\":\"Web前端相关/工具库/地图.md\"}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
+export const data = JSON.parse("{\"key\":\"v-3d079177\",\"path\":\"/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%9C%B0%E5%9B%BE.html\",\"title\":\"地图\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"地图\",\"summary\":\"\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://www.gaosen.xyz/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%9C%B0%E5%9B%BE.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"GaoSen\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"地图\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2022-09-29T15:01:21.000Z\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2022-05-29T15:47:00.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2022-09-29T15:01:21.000Z\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://www.gaosen.xyz/en/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%9C%B0%E5%9B%BE.html\"}]]},\"excerpt\":\"\",\"headers\":[],\"git\":{\"createdTime\":1664463681000,\"updatedTime\":1664463681000,\"contributors\":[{\"name\":\"gao_sen_g\",\"email\":\"2322134363@qq.com\",\"commits\":1}]},\"readingTime\":{\"minutes\":0.35,\"words\":104},\"filePathRelative\":\"Web前端相关/工具库/地图.md\",\"localizedDate\":\"2022年9月29日\"}")

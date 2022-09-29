@@ -1,14 +1,1 @@
-export const data = JSON.parse("{\"key\":\"v-1473bf53\",\"path\":\"/demo/\",\"title\":\"主要功能与配置演示\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"主要功能与配置演示\",\"index\":false,\"icon\":\"creative\",\"category\":[\"使用指南\"],\"summary\":\"目录\\rMarkdown 展示; \\r页面展示; \\r禁用展示; \\r加密展示;\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://www.gaosen.xyz/demo/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"GaoSen\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"主要功能与配置演示\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://www.gaosen.xyz/en/demo/\"}]]},\"excerpt\":\"\",\"headers\":[{\"level\":2,\"title\":\"目录\",\"slug\":\"目录\",\"link\":\"#目录\",\"children\":[]}],\"readingTime\":{\"minutes\":0.13,\"words\":40},\"filePathRelative\":\"demo/README.md\"}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
+export const data = JSON.parse("{\"key\":\"v-1473bf53\",\"path\":\"/demo/\",\"title\":\"主要功能与配置演示\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"主要功能与配置演示\",\"index\":false,\"icon\":\"creative\",\"category\":[\"使用指南\"],\"summary\":\"目录\\rMarkdown 展示; \\r页面展示; \\r禁用展示; \\r加密展示;\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://www.gaosen.xyz/demo/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"GaoSen\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"主要功能与配置演示\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2022-09-29T15:01:21.000Z\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2022-09-29T15:01:21.000Z\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://www.gaosen.xyz/en/demo/\"}]]},\"excerpt\":\"\",\"headers\":[{\"level\":2,\"title\":\"目录\",\"slug\":\"目录\",\"link\":\"#目录\",\"children\":[]}],\"git\":{\"createdTime\":1664125273000,\"updatedTime\":1664463681000,\"contributors\":[{\"name\":\"gao_sen_g\",\"email\":\"2322134363@qq.com\",\"commits\":2}]},\"readingTime\":{\"minutes\":0.13,\"words\":40},\"filePathRelative\":\"demo/README.md\",\"localizedDate\":\"2022年9月26日\"}")
