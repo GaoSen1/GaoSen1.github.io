@@ -57,6 +57,7 @@ Put your jQuery scripts into the mounted() hook. Check this guide</p>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这样Typora 编写的含中文路径的图片资源的 markdown 文件就可以在<code v-pre>vuepress</code>中完美编译，可以一心写文档了。</p>
+<h2 id="使用vercel部署到线上" tabindex="-1"><a class="header-anchor" href="#使用vercel部署到线上" aria-hidden="true">#</a> 使用vercel部署到线上</h2>
 <h2 id="下次遇到新的坑再更新" tabindex="-1"><a class="header-anchor" href="#下次遇到新的坑再更新" aria-hidden="true">#</a> 下次遇到新的坑再更新</h2>
 </div></template>
 

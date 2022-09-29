@@ -49,7 +49,7 @@
 <p>上述<code>adjustHeadBar</code>即为所求。关键是<code>$(window).scroll()、$(window).scrollTop()</code>的使用。</p>
 <h2 id="设置首页动态背景" tabindex="-1"><a class="header-anchor" href="#设置首页动态背景" aria-hidden="true">#</a> 设置首页动态背景</h2>
 <p>嗯，其实就是放一个video标签，关键是找到dom的位置。在工程目录的node_modules下找到<code>vuepress-theme-reco/components/HomeBlog/index.vue</code>，这个文件就是博客首页了，自己<s>魔改一番</s>。如图：</p>
-<p><img src="二次开发.assets/image-20220513202518644.png" alt="image-20220513202518644" loading="lazy"></p>
+<p><img src="@source/Web前端相关/建站手册/二次开发.assets/image-20220513202518644.png" alt="image-20220513202518644" loading="lazy"></p>
 <div class="custom-container tip">
 <p class="custom-container-title">提示</p>
 <p>是不是蛮简单的。但是这修改的是reco主题的源码，原则上是不可以修改node_modules下的文件的，你在修改时IDE也会提示你。而且这种修改也不好触发热重载，必须重新<code>npm run dev</code>才会生效。但是我在这我说了算😆。</p>
@@ -63,7 +63,7 @@
 <h2 id="后续更新-关于修改颜色的终极方案" tabindex="-1"><a class="header-anchor" href="#后续更新-关于修改颜色的终极方案" aria-hidden="true">#</a> 后续更新：关于修改颜色的终极方案</h2>
 <p>上述做法虽然能达到效果，但是感觉不合常理、不优雅、蛮丑陋的😦。在我参考了一篇关于<a href="https://blog.csdn.net/jaykm/article/details/106214527" target="_blank" rel="noopener noreferrer">设计黑暗/亮色模式的博客<ExternalLinkIcon/></a>以及<a href="https://github.com/zpj80231/znote" target="_blank" rel="noopener noreferrer">其他人的vuepress开源库<ExternalLinkIcon/></a>之后，以下的做法更加优雅（嗯而且可以触发触发热重载😋）</p>
 <p>来到node_modules下的<code>vuepress-theme-reco</code>,直接拷贝到<code>docs/.vuepress</code>，且更名为<code>theme</code>.此时的文件夹目录如图：</p>
-<p><img src="二次开发.assets/image-20220524091503374.png" alt="image-20220524091503374" loading="lazy"></p>
+<p><img src="@source/Web前端相关/建站手册/二次开发.assets/image-20220524091503374.png" alt="image-20220524091503374" loading="lazy"></p>
 <p>然后去到<code>theme/components/Mode/modeOptions.js</code>里修改它的颜色变量，该文件内容大致如下：</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">const</span> modeOptions <span class="token operator">=</span> <span class="token punctuation">{</span>
   <span class="token literal-property property">light</span><span class="token operator">:</span> <span class="token punctuation">{</span>
@@ -99,14 +99,14 @@
     <span class="token punctuation">}</span>
     <span class="token function">adjustHeadBar</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="custom-container warning">
-<p class="custom-container-title">Note</p>
+<p class="custom-container-title">注意</p>
 <p>现在这种做法既可以触发热重载，又不修改作者的源码，比起之前直接修改node_modules下文件的做法要优雅。但是这同样意味着不能更新作者的代码(而之前的做法由于只是增添了脚本，而且脚本只是关于主题颜色中的几个颜色，影响不大)。不过博主当前的使用版本应该是1.x中的最新了，更新版的在2.x了，作者似乎也没有写迁移文档呢，难道是不能迁移？</p>
 </div>
 <h2 id="首页打字机效果" tabindex="-1"><a class="header-anchor" href="#首页打字机效果" aria-hidden="true">#</a> 首页打字机效果</h2>
 <p><s>同样来到node_modules下的<code>vuepress-theme-reco/components/HomeBlog</code>创建一个<code>ShowFont.vue</code>。</s></p>
 <p><code>docs/.vuepress/theme/components/HomeBlog/ShowFont.vue</code></p>
 <p>这个组件就是打字机效果的组件，具体怎么写，可参考<a href="https://www.bilibili.com/video/BV1Rz4y1D7Lp?p=24" target="_blank" rel="noopener noreferrer">B站教程<ExternalLinkIcon/></a>。<s>这里主要想说的是在什么地方引入使用改组件。很简单，还是在<code>vuepress-theme-reco/components/HomeBlog/index.vue</code></s> 在<code>docs/.vuepress/theme/components/HomeBlog/index.vue</code>的如图位置引用:</p>
-<p><img src="二次开发.assets/image-20220513205215091.png" alt="image-20220513205215091" loading="lazy"></p>
+<p><img src="@source/Web前端相关/建站手册/二次开发.assets/image-20220513205215091.png" alt="image-20220513205215091" loading="lazy"></p>
 <h2 id="vuepress中引入element-ui" tabindex="-1"><a class="header-anchor" href="#vuepress中引入element-ui" aria-hidden="true">#</a> vuepress中引入element UI</h2>
 <p>在<code>docs/.vuepress</code>下新建<code>enhanceApp.js</code>，该文件的一些说明可参考<a href="https://vuepress.vuejs.org/zh/guide/basic-config.html#%E5%BA%94%E7%94%A8%E7%BA%A7%E5%88%AB%E7%9A%84%E9%85%8D%E7%BD%AE" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a>.</p>
 <p>在该文件中这样写:</p>
@@ -140,7 +140,7 @@ export default ({
 <li>npm i vuepress-plugin-mermaidjs</li>
 </ul>
 <div class="custom-container tip">
-<p class="custom-container-title">Tips</p>
+<p class="custom-container-title">提示</p>
 <p>一定要两个都下载！其中mermaidjs是插件要在config.js中填入。如果不装mermaid会报错can not find mermaid之类的，我也不知这个插件为什么没有集成mermaid，难道是为了体量..？具体说明在其<a href="https://vuepress-plugin-mermaidjs.efrane.com/" target="_blank" rel="noopener noreferrer">文档<ExternalLinkIcon/></a>。</p>
 <p>🤕找了半天的官方文档，最后在npm的github链接处找到了。我真是个笨蛋，npm逛了那么久都没注意，以为如果<a href="https://www.npmjs.com/package/vuepress-plugin-mermaidjs" target="_blank" rel="noopener noreferrer">npm<ExternalLinkIcon/></a>处没有文档说明就没有了，毕竟好多插件都这样。。。</p>
 </div>
@@ -172,7 +172,7 @@ C -->|Two| E[Result 2]
     <span class="token punctuation">}</span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这样在typro中键入的数学公式就可以正常渲染了，如图</p>
-<p><img src="二次开发.assets/image-20220524170715873.png" alt="image-20220524170715873" loading="lazy"></p>
+<p><img src="@source/Web前端相关/建站手册/二次开发.assets/image-20220524170715873.png" alt="image-20220524170715873" loading="lazy"></p>
 <h2 id="引入echarts" tabindex="-1"><a class="header-anchor" href="#引入echarts" aria-hidden="true">#</a> 引入echarts</h2>
 <p>根据官方文档，可以这样引入：</p>
 <ul>
@@ -195,7 +195,7 @@ C -->|Two| E[Result 2]
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>vuepress nav docs
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>会生成一个nav.js文件，引用它。</p>
 <div class="custom-container tip">
-<p class="custom-container-title">Tips</p>
+<p class="custom-container-title">提示</p>
 <p><a href="http://xn--README-9m7i9kb25rwz4c7x6apdex6te88h49ya.md" target="_blank" rel="noopener noreferrer">每个文件夹都要有一个README.md<ExternalLinkIcon/></a>，否则会出现404</p>
 </div>
 <h3 id="多个分组" tabindex="-1"><a class="header-anchor" href="#多个分组" aria-hidden="true">#</a> 多个分组</h3>

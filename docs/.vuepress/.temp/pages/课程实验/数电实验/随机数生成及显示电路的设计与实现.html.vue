@@ -102,8 +102,8 @@ f ≥ N × f_0
 <h3 id="按键消抖-debouncing" tabindex="-1"><a class="header-anchor" href="#按键消抖-debouncing" aria-hidden="true">#</a> 按键消抖(debouncing)</h3>
 <Mermaid id="mermaid-64a56ef2" code="flowchart%20LR%0A%20%20subgraph%20debouncing%0A%20%20direction%20LR%0A%20%20%20%20x(%22some%20operation%22)%20%20--%3E%20...%20--%3E%20y(%22some%20operation%22)%0A%20%20end%0A%20%20btn%20--%3E%20debouncing%20--%3E%20btnout%0A%20%20clk%20--%3E%20debouncing%0A"></Mermaid><p>它的作用除了标题所言消抖，还有：按键一旦被按下（不管有没有弹开）后，2s内保持btnout输出高电平“1”，使显示译码的随机数部分复位保持2s再变化。</p>
 <p>消抖的原理如下：</p>
-<p><img src="随机数生成及显示电路的设计与实现.assets/image-20220602181033266.png" alt="image-20220602181033266" loading="lazy"></p>
-<p><img src="随机数生成及显示电路的设计与实现.assets/image-20220602185634561.png" alt="image-20220602185634561" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/随机数生成及显示电路的设计与实现.assets/image-20220602181033266.png" alt="image-20220602181033266" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/随机数生成及显示电路的设计与实现.assets/image-20220602185634561.png" alt="image-20220602185634561" loading="lazy"></p>
 <p>此处使用计数法消抖，计数器在btn为“1”时，对毫秒信号计数，计数值保存在num中。检测num的值，只有它大于某一数值（如30）时，btnout才输出“1”，否则输出“0”。</p>
 <blockquote>
 <p><strong>注意</strong></p>
@@ -318,22 +318,22 @@ f ≥ N × f_0
     <span class="token comment">-- numtmp &lt;= num4;</span>
 <span class="token keyword">end</span> <span class="token keyword">architecture</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="工程文件截图" tabindex="-1"><a class="header-anchor" href="#工程文件截图" aria-hidden="true">#</a> 工程文件截图：</h3>
-<p><img src="随机数生成及显示电路的设计与实现.assets/image-20220602225112266.png" alt="image-20220602225112266" loading="lazy"></p>
-<p><img src="随机数生成及显示电路的设计与实现.assets/image-20220602224938100.png" alt="image-20220602224938100" loading="lazy"></p>
-<p><img src="随机数生成及显示电路的设计与实现.assets/image-20220602225200053.png" alt="image-20220602225200053" loading="lazy"></p>
-<p><img src="随机数生成及显示电路的设计与实现.assets/image-20220602225226508.png" alt="image-20220602225226508" loading="lazy"></p>
-<p><img src="随机数生成及显示电路的设计与实现.assets/image-20220602225246364.png" alt="image-20220602225246364" loading="lazy"></p>
-<p><img src="随机数生成及显示电路的设计与实现.assets/image-20220602200631559.png" alt="image-20220602200631559" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/随机数生成及显示电路的设计与实现.assets/image-20220602225112266.png" alt="image-20220602225112266" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/随机数生成及显示电路的设计与实现.assets/image-20220602224938100.png" alt="image-20220602224938100" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/随机数生成及显示电路的设计与实现.assets/image-20220602225200053.png" alt="image-20220602225200053" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/随机数生成及显示电路的设计与实现.assets/image-20220602225226508.png" alt="image-20220602225226508" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/随机数生成及显示电路的设计与实现.assets/image-20220602225246364.png" alt="image-20220602225246364" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/随机数生成及显示电路的设计与实现.assets/image-20220602200631559.png" alt="image-20220602200631559" loading="lazy"></p>
 <h2 id="仿真波形图及分析、结论" tabindex="-1"><a class="header-anchor" href="#仿真波形图及分析、结论" aria-hidden="true">#</a> 仿真波形图及分析、结论</h2>
-<p><img src="随机数生成及显示电路的设计与实现.assets/image-20220602200815209.png" alt="image-20220602200815209" loading="lazy"></p>
-<p><img src="随机数生成及显示电路的设计与实现.assets/image-20220602202051320.png" alt="image-20220602202051320" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/随机数生成及显示电路的设计与实现.assets/image-20220602200815209.png" alt="image-20220602200815209" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/随机数生成及显示电路的设计与实现.assets/image-20220602202051320.png" alt="image-20220602202051320" loading="lazy"></p>
 <p>从上图可以看出，位码大概每1ms切换一次，正确实现了动态扫描数码管。再看位码，初始显示&quot;20110000&quot;，也能正确译码。</p>
-<p><img src="随机数生成及显示电路的设计与实现.assets/image-20220602203300776.png" alt="image-20220602203300776" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/随机数生成及显示电路的设计与实现.assets/image-20220602203300776.png" alt="image-20220602203300776" loading="lazy"></p>
 <p>将时间轴移动到2s处，得到上图，可以看出2s后后三位随机数已经变化。</p>
 <p>如果在1s左右处按键按下，如下图：</p>
-<p><img src="随机数生成及显示电路的设计与实现.assets/image-20220602203738759.png" alt="image-20220602203738759" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/随机数生成及显示电路的设计与实现.assets/image-20220602203738759.png" alt="image-20220602203738759" loading="lazy"></p>
 <p>仿真后：</p>
-<p><img src="随机数生成及显示电路的设计与实现.assets/image-20220602204050164.png" alt="image-20220602204050164" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/随机数生成及显示电路的设计与实现.assets/image-20220602204050164.png" alt="image-20220602204050164" loading="lazy"></p>
 <p>可以看到此时即使时间来到3s左右，随机数仍保持“000”，说明按键可以实现复位，且复位保持2s。</p>
 <h2 id="实验中遇到的问题及解决方法" tabindex="-1"><a class="header-anchor" href="#实验中遇到的问题及解决方法" aria-hidden="true">#</a> 实验中遇到的问题及解决方法</h2>
 <h3 id="_1-vhdl编译报错" tabindex="-1"><a class="header-anchor" href="#_1-vhdl编译报错" aria-hidden="true">#</a> 1.vhdl编译报错</h3>
@@ -348,14 +348,14 @@ f ≥ N × f_0
 <h3 id="_2-下载到开发板上时数码管乱码" tabindex="-1"><a class="header-anchor" href="#_2-下载到开发板上时数码管乱码" aria-hidden="true">#</a> 2.下载到开发板上时数码管乱码</h3>
 <p>在检查自己的程序、仿真分析确定无误后，最后发现段码的引脚配置错误。</p>
 <p>根据实验板说明书：</p>
-<p><img src="随机数生成及显示电路的设计与实现.assets/image-20220602212130607.png" alt="image-20220602212130607" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/随机数生成及显示电路的设计与实现.assets/image-20220602212130607.png" alt="image-20220602212130607" loading="lazy"></p>
 <p>如要想01100000表示“1”，则seg: abcdefgp，只有bc亮，</p>
 <p>seg[7] -&gt; a -&gt; PIN_62</p>
 <p>seg[6] -&gt; b -&gt; PIN_59</p>
 <p>...</p>
 <p>注意左边起是高位，如“01100000”中，seg[7]=0,seg[6]=1,seg[5]=1.</p>
 <p>最后的配置应该如下：</p>
-<p><img src="随机数生成及显示电路的设计与实现.assets/image-20220602220550763.png" alt="image-20220602220550763" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/随机数生成及显示电路的设计与实现.assets/image-20220602220550763.png" alt="image-20220602220550763" loading="lazy"></p>
 <h3 id="_3-随机数显示译码是二进制数" tabindex="-1"><a class="header-anchor" href="#_3-随机数显示译码是二进制数" aria-hidden="true">#</a> 3.随机数显示译码是二进制数</h3>
 <p>注意应译码成十进制数。</p>
 <h3 id="_4-每次清零后的显示都一样" tabindex="-1"><a class="header-anchor" href="#_4-每次清零后的显示都一样" aria-hidden="true">#</a> 4.每次清零后的显示都一样</h3>

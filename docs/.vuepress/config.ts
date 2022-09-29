@@ -3,21 +3,24 @@ import theme from "./theme.js";
 import { searchPlugin } from "@vuepress/plugin-search";
 
 export default defineUserConfig({
+  lang: "zh-CN",
+
   base: "/",
 
   dest: "docs/.vuepress/dist",
 
   locales: {
     "/": {
-      lang: "en-US",
-      title: "Blog Demo",
-      description: "A blog demo for vuepress-theme-hope",
-    },
-    "/zh/": {
       lang: "zh-CN",
-      title: "博客演示",
-      description: "vuepress-theme-hope 的博客演示",
+      title: "GaoSen",
+      description: "海压竹枝低复举，风吹山角晦还明。",
     },
+    "/en/": {
+      lang: "en-US",
+      title: "GaoSen",
+      description: "The sea lowers the branches, with the branches are still straight; The wind blows over the corner, and then becomes bright.",
+    },
+    
   },
 
   theme,
@@ -29,7 +32,7 @@ export default defineUserConfig({
       // ...
 
       locales: {
-        "/zh/": {
+        "/": {
           placeholder: "搜索",
         },
       },

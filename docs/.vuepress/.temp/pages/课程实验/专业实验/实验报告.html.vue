@@ -20,13 +20,13 @@
 <li>
 <p>主要模块的流程图。</p>
 <Mermaid id="mermaid-382ee1c3" code="flowchart%20TB%0A%20%20subgraph%20wave%5B%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E6%A8%A1%E5%9D%97%5D%0A%20%20direction%20LR%0A%20%20%09X1(%22%E5%88%86%E5%88%AB%E5%B0%86A%EF%BC%8CB%E8%BD%AC%E6%8D%A2%E6%88%90%E6%95%B0%E7%BB%84%2C%0A%20%20%09%E6%96%B9%E4%BE%BF%E8%BF%90%E7%AE%97%22)%0A%20%20%20%20X2(%22%E9%81%8D%E5%8E%86A%E6%95%B0%E7%BB%84%E6%88%96B%E6%95%B0%E7%BB%84%EF%BC%8C%0A%20%20%20%20%E6%8C%89%E4%BD%8D%E5%81%9A%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%22)%0A%20%20%20%20X3(%22%E5%B0%86%E8%BF%90%E7%AE%97%E7%BB%93%E6%9E%9C%E5%AD%98%E5%82%A8%E5%88%B0%E5%AF%B9%E5%BA%94%E7%9A%84%E5%87%BD%E6%95%B0%E6%95%B0%E7%BB%84%E4%B8%AD%22)%0A%20%20%20%20X1%20--%3E%20X2%20--%3E%20X3%0A%20%20end%0A%20%20x2(%22%E9%80%9A%E9%81%93A%E7%9A%84%E8%BE%93%E5%85%A5%22)%20---%3E%20wave%0A%20%20x3(%22%E9%80%9A%E9%81%93B%E7%9A%84%E8%BE%93%E5%85%A5%22)%20---%3E%20wave%0A%20%20wave%20---%3E%20x4(%22A%EF%BC%8CB%E7%9A%84%E4%B8%8E%E5%87%BD%E6%95%B0%22)%20%0A%20%20wave%20---%3E%20x5(%22A%EF%BC%8CB%E7%9A%84%E6%88%96%E5%87%BD%E6%95%B0%22)%20%0A%20%20wave%20---%3E%20x6(%22A%EF%BC%8CB%E7%9A%84%E5%BC%82%E6%88%96%E5%87%BD%E6%95%B0%22)%0A%20%20wave%20---%3E%20x7(%22A%EF%BC%8CB%E7%9A%84%E5%90%8C%E6%88%96%E5%87%BD%E6%95%B0%22)%0A"></Mermaid><Mermaid id="mermaid-382ee1c4" code="flowchart%20TB%0A%20%20subgraph%20wave%5B%E6%B3%A2%E5%BD%A2%E7%94%9F%E6%88%90%E6%A8%A1%E5%9D%97%5D%0A%20%20direction%20LR%0A%20%20%09X1(%22%E6%A0%B9%E6%8D%AE%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E6%A8%A1%E5%9D%97%E8%BF%94%E5%9B%9E%E7%9A%84%E8%BF%90%E7%AE%97%E7%BB%93%E6%9E%9C%2C%0A%20%20%09%E7%94%9F%E6%88%90echarts%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E9%A1%B9%E5%92%8C%E6%95%B0%E6%8D%AE%22)%0A%20%20%20%20X2(%22%E7%94%B1%E9%85%8D%E7%BD%AE%E9%A1%B9%E5%92%8C%E6%95%B0%E6%8D%AE%E7%94%9F%E6%88%90echarts%E5%9B%BE%E8%A1%A8%EF%BC%8C%0A%20%20%20%20%E7%94%9F%E6%88%90%E6%B3%A2%E5%BD%A2%22)%20%20%0A%20%20%20%20X1%20--%3E%20X2%0A%20%20end%0A%20%20x1(%22%E5%BD%93%E5%89%8D%E6%97%B6%E5%88%BBtime%22)%20---%3E%20wave%0A%20%20x2(%22%E9%80%9A%E9%81%93A%E7%9A%84%E8%BE%93%E5%85%A5%22)%20---%3E%20wave%0A%20%20x3(%22%E9%80%9A%E9%81%93B%E7%9A%84%E8%BE%93%E5%85%A5%22)%20---%3E%20wave%0A%20%20x4(%22A%EF%BC%8CB%E7%9A%84%E4%B8%8E%E5%87%BD%E6%95%B0%22)%20---%3E%20wave%0A%20%20x5(%22A%EF%BC%8CB%E7%9A%84%E6%88%96%E5%87%BD%E6%95%B0%22)%20---%3E%20wave%0A%20%20x6(%22A%EF%BC%8CB%E7%9A%84%E5%BC%82%E6%88%96%E5%87%BD%E6%95%B0%22)%20---%3E%20wave%0A%20%20x7(%22A%EF%BC%8CB%E7%9A%84%E5%90%8C%E6%88%96%E5%87%BD%E6%95%B0%22)%20---%3E%20wave%0A%20%20wave%20---%3E%20y1(%22%E6%8E%A7%E5%88%B6%E5%9C%A8%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2%E4%B8%8A%E6%B8%B2%E6%9F%93%E8%BF%99%E4%BA%9B%E6%B3%A2%E5%BD%A2%22)%0A"></Mermaid><p>项目结果运行分析：</p>
-<p><img src="实验报告.assets/image-20220604113216012.png" alt="image-20220604113216012" loading="lazy"></p>
-<p>点击链接，查看项目运行地址：<img src="实验报告.assets/image-20220604113354706.png" alt="image-20220604113354706" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220604113216012.png" alt="image-20220604113216012" loading="lazy"></p>
+<p>点击链接，查看项目运行地址：<img src="@source/课程实验/专业实验/实验报告.assets/image-20220604113354706.png" alt="image-20220604113354706" loading="lazy"></p>
 <p>可以看到用户界面初始渲染了样例输入的波形</p>
 <p>现在A输入0001000100010001，在B输入0101010101010101，结果显示:</p>
-<p><img src="实验报告.assets/image-20220604130304737.png" alt="image-20220604130304737" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220604130304737.png" alt="image-20220604130304737" loading="lazy"></p>
 <p>点击上方按钮，把其他波形隐藏，只观测异或波形：</p>
-<p><img src="实验报告.assets/image-20220604130430763.png" alt="image-20220604130430763" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220604130430763.png" alt="image-20220604130430763" loading="lazy"></p>
 </li>
 <li>
 <p>设计过程中出现的错误。</p>
@@ -250,7 +250,7 @@
 <ul>
 <li>
 <p>设计的任务:已知各音阶标称频率值： （HZ）:</p>
-<p><img src="实验报告.assets/image-20220604193609677.png" alt="image-20220604193609677" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220604193609677.png" alt="image-20220604193609677" loading="lazy"></p>
 <p>完成一个程序，实现如下功能
 (1)程序每间隔 0.5 秒扬声器发出不同频率的声音，每次升高 100HZ，直到频率达到2000hz。
 (2)谱曲功能：首先给出基准节拍，并定义每个音节频率，输入一串字符串，可输出一段音乐。例如 0.5A1/1A2/0.5B3/1C4/5D1</p>
@@ -281,16 +281,16 @@
 <p><a href="https://www.xiwnn.com/piano/" target="_blank" rel="noopener noreferrer">在线钢琴模拟器<ExternalLinkIcon/></a></p>
 <p>录音软件用的是“金舟电脑录音软件”——显然听都没听说过👍。虽然普通用户最久只能录制几分钟，但是我们就使用一下，完全ok，过后也可以马上卸载
 音频剪辑软件我用的是adobe旗下的audition（需破解）</p>
-<p><img src="实验报告.assets/image-20220604220857738.png" alt="image-20220604220857738" loading="lazy"></p>
-<p><img src="实验报告.assets/image-20220604220916911.png" alt="image-20220604220916911" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220604220857738.png" alt="image-20220604220857738" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220604220916911.png" alt="image-20220604220916911" loading="lazy"></p>
 <p>全选然后重命名可以批量重命名这些文件 看着很多，其实一共<strong>1.2MB</strong> 实际我只选用了前38个音频文件。</p>
 <p>说实话，钢琴的音频文件还真不好找，不然我也不会用这种笨方法了。</p>
 <p>针对任务（1），我是用一个循环+延时，其中每个按键绑定的延时需要递增，否则就会出现所有按键几乎同时被点击，非常难受😢。 接着js控制按键依次被自动点击。</p>
 <p>针对任务（2），我是用一个输入框来存放用户输入的字符串变量，将该字符串转成数组，遍历数组依次判断本次循环中的数组元素应该对应哪个音频文件，遍历完后可以得到字符串与音频文件的对应关系，（期间你需要定义一个数组类型变量来记录播放顺序）然后遍历这个播放顺序的数组，依次让按钮自动被点击。</p>
 <p>npm run dev(项目运行)结果：</p>
-<p><img src="实验报告.assets/image-20220604221345851.png" alt="image-20220604221345851" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220604221345851.png" alt="image-20220604221345851" loading="lazy"></p>
 <p>点击链接，查看项目运行地址</p>
-<p><img src="实验报告.assets/image-20220604221436067.png" alt="image-20220604221436067" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220604221436067.png" alt="image-20220604221436067" loading="lazy"></p>
 <p>用户界面可见四个按钮和一个输入框，以及38个琴键。点击琴键会听到相应的音频。</p>
 </li>
 </ol>
@@ -395,8 +395,8 @@
 <ul>
 <li>主要模块的流程图。</li>
 </ul>
-<Mermaid id="mermaid-64a5619a" code="flowchart%20TB%0A%09subgraph%20p1%5B%22%E5%88%9D%E5%A7%8B%E6%A8%A1%E5%9D%97%22%5D%0A%09direction%20TB%0A%20%20%20%20%20%20%20%20x1(%22%E7%94%BB%E5%87%BA%E6%8A%BD%E6%A0%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%E6%97%B6%E5%9F%9F%E5%9B%BE%E5%83%8Ffs%22)%0A%20%20%20%20%20%20%20%20x2(%22%E7%94%BB%E5%87%BA%E5%BE%85%E6%B5%8B%E4%BF%A1%E5%8F%B7%E7%9A%84%E6%97%B6%E5%9F%9F%E5%9B%BE%E5%83%8Ff1%22)%0A%20%20%20%20%20%20%20%20x3(%22%E7%94%BB%E5%87%BA%E5%BE%85%E6%B5%8B%E4%BF%A1%E5%8F%B7%E4%B8%8E%E6%8A%BD%E6%A0%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%E4%B9%98%E7%A7%AFf2%22)%0A%20%20%20%20%20%20%20%20x1%20--%3E%20x2%20--%3E%20x3%0A%09end%0A%09%0A%09subgraph%20p2%5B%22%E5%AF%B9%E6%AF%94%E6%A8%A1%E5%9D%97%22%5D%0A%09direction%20TB%0A%20%20%20%20%20%20%20%20y1(%22%E7%94%BB%E5%87%BA%E6%8A%BD%E6%A0%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%E9%A2%91%E5%9F%9F%E5%9B%BE%E5%83%8FFs%22)%0A%20%20%20%20%20%20%20%20y2(%22%E7%94%BB%E5%87%BA%E5%BE%85%E6%B5%8B%E4%BF%A1%E5%8F%B7%E7%9A%84%E9%A2%91%E5%9F%9F%E5%9B%BE%E5%83%8FF1%22)%0A%20%20%20%20%20%20%20%20y3(%22%E7%94%BB%E5%87%BA%E5%BE%85%E6%B5%8B%E4%BF%A1%E5%8F%B7%E4%B8%8E%E6%8A%BD%E6%A0%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%E5%8D%B7%E7%A7%AFF2%22)%0A%20%20%20%20%20%20%20%20y4(%22%E5%88%B0%E6%AD%A4%E4%B8%BA%E6%AD%A2%E5%B7%B2%E7%BB%8F%E5%BE%97%E5%88%B0%E4%BA%866%E4%B8%AA%E5%9B%BE%E5%83%8F%EF%BC%8C%E6%94%BE%E5%9C%A8%E4%B8%80%E8%B5%B7%E5%AF%B9%E6%AF%94%22)%0A%20%20%20%20%20%20%20%20y1%20--%3E%20y2%20--%3E%20y3%20--%3E%20y4%0A%09end%0A%09%0A%09subgraph%20p3%5B%22%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2%E6%A8%A1%E5%9D%97%22%5D%0A%09direction%20LR%0A%20%20%20%20%20%20%20%20z1(%22%E6%8A%BD%E6%A0%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%0A%20%20%20%20%20%20%20%20%E6%97%B6%E5%9F%9F%E5%9B%BE%E5%83%8Ffs%E7%9A%84%0A%20%20%20%20%20%20%20%20%E9%A2%91%E7%8E%87%E4%B8%8D%E6%96%AD%E5%87%8F%E5%B0%8F%EF%BC%8C%E5%91%A8%E6%9C%9F%E6%89%A9%E5%A4%A7%0A%20%20%20%20%20%20%20%20%E8%A1%A8%E7%8E%B0%E4%B8%BA%E5%9B%BE%E5%83%8F%E6%8B%89%E5%AE%BD%22)%0A%20%20%20%20%20%20%20%20z2(%22%E6%8A%BD%E6%A0%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%0A%20%20%20%20%20%20%20%20%E9%A2%91%E5%9F%9F%E5%9B%BE%E5%83%8FFs%0A%20%20%20%20%20%20%20%20%E4%B8%8E%E5%8E%9F%E7%82%B9%E7%9A%84%E8%B7%9D%E7%A6%BB%E7%BC%A9%E5%B0%8F%0A%20%20%20%20%20%20%20%20%E8%A1%A8%E7%8E%B0%E4%B8%BA%E5%9B%BE%E5%83%8F%E7%BC%A9%E7%AA%84%22)%0A%20%20%20%20%20%20%20%20z3(%22%E4%B9%98%E7%A7%AF%E4%BF%A1%E5%8F%B7f2%0A%20%20%20%20%20%20%20%20%E7%9A%84%E5%9B%BE%E5%83%8F%E6%8B%89%E5%AE%BD%22)%0A%20%20%20%20%20%20%20%20z4(%22%E5%8D%B7%E7%A7%AF%E4%BF%A1%E5%8F%B7F2%E7%9A%84%E5%9B%BE%E5%83%8F%0A%20%20%20%20%20%20%20%20%E7%BC%A9%E7%AA%84%E3%80%81%E5%B9%85%E5%80%BC%E7%BC%A9%E5%B0%8F%22)%0A%20%20%20%20%20%20%20%20z1%20---%7C%E5%90%8C%E6%97%B6%E5%8F%91%E7%94%9F%7C%20z2%20---%7C%E5%90%8C%E6%97%B6%E5%8F%91%E7%94%9F%7C%20z3%20---%7C%E5%90%8C%E6%97%B6%E5%8F%91%E7%94%9F%7C%20z4%20%0A%09end%0A%09p1%20--%3E%20p2%20--%3E%20p3%0A"></Mermaid><p><img src="实验报告.assets/image-20220604231442779.png" alt="image-20220604231442779" loading="lazy"></p>
-<p><img src="实验报告.assets/image-20220604231459303.png" alt="image-20220604231459303" loading="lazy"></p>
+<Mermaid id="mermaid-64a5619a" code="flowchart%20TB%0A%09subgraph%20p1%5B%22%E5%88%9D%E5%A7%8B%E6%A8%A1%E5%9D%97%22%5D%0A%09direction%20TB%0A%20%20%20%20%20%20%20%20x1(%22%E7%94%BB%E5%87%BA%E6%8A%BD%E6%A0%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%E6%97%B6%E5%9F%9F%E5%9B%BE%E5%83%8Ffs%22)%0A%20%20%20%20%20%20%20%20x2(%22%E7%94%BB%E5%87%BA%E5%BE%85%E6%B5%8B%E4%BF%A1%E5%8F%B7%E7%9A%84%E6%97%B6%E5%9F%9F%E5%9B%BE%E5%83%8Ff1%22)%0A%20%20%20%20%20%20%20%20x3(%22%E7%94%BB%E5%87%BA%E5%BE%85%E6%B5%8B%E4%BF%A1%E5%8F%B7%E4%B8%8E%E6%8A%BD%E6%A0%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%E4%B9%98%E7%A7%AFf2%22)%0A%20%20%20%20%20%20%20%20x1%20--%3E%20x2%20--%3E%20x3%0A%09end%0A%09%0A%09subgraph%20p2%5B%22%E5%AF%B9%E6%AF%94%E6%A8%A1%E5%9D%97%22%5D%0A%09direction%20TB%0A%20%20%20%20%20%20%20%20y1(%22%E7%94%BB%E5%87%BA%E6%8A%BD%E6%A0%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%E9%A2%91%E5%9F%9F%E5%9B%BE%E5%83%8FFs%22)%0A%20%20%20%20%20%20%20%20y2(%22%E7%94%BB%E5%87%BA%E5%BE%85%E6%B5%8B%E4%BF%A1%E5%8F%B7%E7%9A%84%E9%A2%91%E5%9F%9F%E5%9B%BE%E5%83%8FF1%22)%0A%20%20%20%20%20%20%20%20y3(%22%E7%94%BB%E5%87%BA%E5%BE%85%E6%B5%8B%E4%BF%A1%E5%8F%B7%E4%B8%8E%E6%8A%BD%E6%A0%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%E5%8D%B7%E7%A7%AFF2%22)%0A%20%20%20%20%20%20%20%20y4(%22%E5%88%B0%E6%AD%A4%E4%B8%BA%E6%AD%A2%E5%B7%B2%E7%BB%8F%E5%BE%97%E5%88%B0%E4%BA%866%E4%B8%AA%E5%9B%BE%E5%83%8F%EF%BC%8C%E6%94%BE%E5%9C%A8%E4%B8%80%E8%B5%B7%E5%AF%B9%E6%AF%94%22)%0A%20%20%20%20%20%20%20%20y1%20--%3E%20y2%20--%3E%20y3%20--%3E%20y4%0A%09end%0A%09%0A%09subgraph%20p3%5B%22%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2%E6%A8%A1%E5%9D%97%22%5D%0A%09direction%20LR%0A%20%20%20%20%20%20%20%20z1(%22%E6%8A%BD%E6%A0%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%0A%20%20%20%20%20%20%20%20%E6%97%B6%E5%9F%9F%E5%9B%BE%E5%83%8Ffs%E7%9A%84%0A%20%20%20%20%20%20%20%20%E9%A2%91%E7%8E%87%E4%B8%8D%E6%96%AD%E5%87%8F%E5%B0%8F%EF%BC%8C%E5%91%A8%E6%9C%9F%E6%89%A9%E5%A4%A7%0A%20%20%20%20%20%20%20%20%E8%A1%A8%E7%8E%B0%E4%B8%BA%E5%9B%BE%E5%83%8F%E6%8B%89%E5%AE%BD%22)%0A%20%20%20%20%20%20%20%20z2(%22%E6%8A%BD%E6%A0%B7%E4%BF%A1%E5%8F%B7%E7%9A%84%0A%20%20%20%20%20%20%20%20%E9%A2%91%E5%9F%9F%E5%9B%BE%E5%83%8FFs%0A%20%20%20%20%20%20%20%20%E4%B8%8E%E5%8E%9F%E7%82%B9%E7%9A%84%E8%B7%9D%E7%A6%BB%E7%BC%A9%E5%B0%8F%0A%20%20%20%20%20%20%20%20%E8%A1%A8%E7%8E%B0%E4%B8%BA%E5%9B%BE%E5%83%8F%E7%BC%A9%E7%AA%84%22)%0A%20%20%20%20%20%20%20%20z3(%22%E4%B9%98%E7%A7%AF%E4%BF%A1%E5%8F%B7f2%0A%20%20%20%20%20%20%20%20%E7%9A%84%E5%9B%BE%E5%83%8F%E6%8B%89%E5%AE%BD%22)%0A%20%20%20%20%20%20%20%20z4(%22%E5%8D%B7%E7%A7%AF%E4%BF%A1%E5%8F%B7F2%E7%9A%84%E5%9B%BE%E5%83%8F%0A%20%20%20%20%20%20%20%20%E7%BC%A9%E7%AA%84%E3%80%81%E5%B9%85%E5%80%BC%E7%BC%A9%E5%B0%8F%22)%0A%20%20%20%20%20%20%20%20z1%20---%7C%E5%90%8C%E6%97%B6%E5%8F%91%E7%94%9F%7C%20z2%20---%7C%E5%90%8C%E6%97%B6%E5%8F%91%E7%94%9F%7C%20z3%20---%7C%E5%90%8C%E6%97%B6%E5%8F%91%E7%94%9F%7C%20z4%20%0A%09end%0A%09p1%20--%3E%20p2%20--%3E%20p3%0A"></Mermaid><p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220604231442779.png" alt="image-20220604231442779" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220604231459303.png" alt="image-20220604231459303" loading="lazy"></p>
 <ul>
 <li>由于该题较为简单，所以设计过程中基本没有出现什么错误。</li>
 </ul>
@@ -454,25 +454,25 @@
 <li>主要模块的流程图:</li>
 </ul>
 <Mermaid id="mermaid-64a55962" code="%20%20flowchart%20TB%09%09%0A%20%20%09subgraph%20p1%5B%22%E6%8A%BD%E5%A5%96%E6%A8%A1%E5%9D%97%22%5D%0A%20%20%09direction%20TB%0A%20%20%09%09subgraph%20p0%5B%22%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E9%BB%91%E7%AE%B1%22%5D%0A%20%20%20%20%20%20%20%20%20%20direction%20TB%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20a1(%22A0%2CA1%2C...%2CA21%22)%0A%20%20%20%20%20%20%20%20%20%20end%0A%20%20%20%20%20%20%20%20%20%20x1(%22a0%2Ca1%2Ca2%2Ca3%2Ca4%22)%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20p0%20--%3E%7C%E9%9A%8F%E6%9C%BA%E4%B8%8D%E9%87%8D%E5%A4%8D%E6%8A%9B%E5%87%BA5%E4%B8%AA%2C%5Cn%E7%BB%8F%E8%BF%87%E6%8E%92%E5%BA%8F%E6%95%B4%E7%90%86%7Cx1%0A%20%20%09end%0A%20%20%09%0A%20%20%09subgraph%20p2%5B%22%E5%BC%80%E5%A5%96%E6%A8%A1%E5%9D%97%22%5D%0A%20%20%09direction%20TB%0A%20%20%20%20%20%20%20%20%20subgraph%20p4%5B%22%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E9%BB%91%E7%AE%B1%22%5D%0A%20%20%20%20%20%20%20%20%20%20direction%20TB%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20a2(%22A0%2CA1%2C...%2CA21%22)%0A%20%20%20%20%20%20%20%20%20%20end%0A%20%20%20%20%20%20%20%20%20%20y1(%22P0%2CP1%2CP2%2CP3%2CP4%22)%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20p4%20--%3E%7C%E9%9A%8F%E6%9C%BA%E4%B8%8D%E9%87%8D%E5%A4%8D%E6%8A%9B%E5%87%BA5%E4%B8%AA%2C%5Cn%E7%BB%8F%E8%BF%87%E6%8E%92%E5%BA%8F%E6%95%B4%E7%90%86%7Cy1%0A%20%20%20%20%20%20%20%20%20%20p4%20--%3E%7C%E9%9A%8F%E6%9C%BA%E6%8A%9B%E5%87%BA%E4%B8%80%E4%B8%AA%E7%89%B9%E6%AE%8A%E5%8F%B7%E7%A0%81P0%7C%20y2(%22P5%22)%0A%20%20%09end%0A%20%20%09%0A%20%20%09subgraph%20p3%5B%22%E5%85%91%E5%A5%96%E6%A8%A1%E5%9D%97%22%5D%0A%20%20%09direction%20LR%0A%20%20%20%20%20%20%20%20%20%20z1(%22some%20operation%22)%20--%3E%20z2(%22...%22)%20--%3E%20z3(%22some%20operation%22)%0A%20%20%09end%0A%20%20%09p1%20--%3E%20t1(%22a0%2Ca1%2Ca2%2Ca3%2Ca4%22)%20--%3E%20p3%0A%20%20%09p2%20--%3E%20t2(%22(P0%2CP1%2CP2%2CP3%2CP4)%2BP5%22)%20--%3E%20p3%20--%3E%20res(%22%E5%91%8A%E7%9F%A5%E7%94%A8%E6%88%B7%E8%8E%B7%E5%A5%96%E7%AD%89%E7%BA%A7%22)%0A"></Mermaid><p>找到LuckyCanvas插件的github地址</p>
-<p><img src="实验报告.assets/image-20220605183642963.png" alt="image-20220605183642963" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605183642963.png" alt="image-20220605183642963" loading="lazy"></p>
 <p>项目运行结果：</p>
-<p><img src="实验报告.assets/image-20220605200926790.png" alt="image-20220605200926790" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605200926790.png" alt="image-20220605200926790" loading="lazy"></p>
 <p>点击链接查看项目运行地址：</p>
-<p><img src="实验报告.assets/image-20220605201008044.png" alt="image-20220605201008044" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605201008044.png" alt="image-20220605201008044" loading="lazy"></p>
 <p>点击开奖：</p>
-<p><img src="实验报告.assets/image-20220605201050205.png" alt="image-20220605201050205" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605201050205.png" alt="image-20220605201050205" loading="lazy"></p>
 <p>点击单抽或五连抽，会有类似大转盘的抽奖动画：</p>
-<p><img src="实验报告.assets/image-20220605201130956.png" alt="image-20220605201130956" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605201130956.png" alt="image-20220605201130956" loading="lazy"></p>
 <p>抽完五个数后，会显示用户手中的号码数：</p>
-<p><img src="实验报告.assets/image-20220605201228520.png" alt="image-20220605201228520" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605201228520.png" alt="image-20220605201228520" loading="lazy"></p>
 <p>点击兑奖，会给出用户的获奖等级：</p>
-<p><img src="实验报告.assets/image-20220605201320740.png" alt="image-20220605201320740" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605201320740.png" alt="image-20220605201320740" loading="lazy"></p>
 <p>再次点击开奖，会有提示信息：</p>
-<p><img src="实验报告.assets/image-20220605201407280.png" alt="image-20220605201407280" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605201407280.png" alt="image-20220605201407280" loading="lazy"></p>
 <p>再次点击抽奖，也会有提示信息：</p>
-<p><img src="实验报告.assets/image-20220605201437751.png" alt="image-20220605201437751" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605201437751.png" alt="image-20220605201437751" loading="lazy"></p>
 <p>可以在“作弊”输入框输入想要的号码：</p>
-<p><img src="实验报告.assets/image-20220605201553452.png" alt="image-20220605201553452" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605201553452.png" alt="image-20220605201553452" loading="lazy"></p>
 <ul>
 <li>由于该题较为简单，所以设计过程中基本没有出现什么错误。</li>
 </ul>
@@ -681,7 +681,7 @@
 <p>算法介绍：</p>
 <h4 id="_1-设计图形界面" tabindex="-1"><a class="header-anchor" href="#_1-设计图形界面" aria-hidden="true">#</a> 1.设计图形界面</h4>
 <p>中国象棋有10行9列，很自然地想到可以用10×9矩阵表示棋盘。事实上，我们使用16×16矩阵来表示一个扩充了的虚拟棋盘。</p>
-<p><img src="实验报告.assets/image-20220605213010267.png" alt="image-20220605213010267" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605213010267.png" alt="image-20220605213010267" loading="lazy"></p>
 <p>如上图所示，灰色部分为真实棋盘，置于虚拟棋盘之中。这么做是因为可以快速判断棋子是否走出边界，以及便于之后的一些运算。</p>
 <p>容易想到使用二维数组表示16×16矩阵，这样棋盘上的一个位置需要两个变量表示。如果使用长度为256的一维数组表示，一个位置只需一个变量，这就可以减少计算量。因此用一维数组表示16×16矩阵。</p>
 <p>一维矩阵和二维矩阵之间的转换已经有现成算法，如下：</p>
@@ -867,7 +867,7 @@
 <ul>
 <li>
 <p>rnbakabnr表示</p>
-<p><img src="实验报告.assets/image-20220605222447238.png" alt="image-20220605222447238" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605222447238.png" alt="image-20220605222447238" loading="lazy"></p>
 </li>
 <li>
 <p>9表示：第二行都是空格。</p>
@@ -907,7 +907,7 @@
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="_4-棋盘界面设计" tabindex="-1"><a class="header-anchor" href="#_4-棋盘界面设计" aria-hidden="true">#</a> 4.棋盘界面设计</h4>
 <p>假设有一张棋盘如下：</p>
-<p><img src="实验报告.assets/image-20220605222656149.png" alt="image-20220605222656149" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605222656149.png" alt="image-20220605222656149" loading="lazy"></p>
 <p>由于棋盘有90个交叉点，我们把棋盘划分为的90个小正方形区域，交叉点是小正方形的中心。每个区域都会定义一个img标签。</p>
 <p>这些img标签有两个作用：</p>
 <ul>
@@ -928,7 +928,7 @@
              <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>index<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>棋盘的css设计，这里我取了个巧，只要设置每个象棋的位置（包括暂时没有棋子的地方）的背景图为如下：</p>
-<p><img src="实验报告.assets/image-20220605225358012.png" alt="image-20220605225358012" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605225358012.png" alt="image-20220605225358012" loading="lazy"></p>
 <p>这样就能组合成一张宫格很多的图，且棋子都在格子的顶点处。然后在楚河汉界处设置<code v-pre>background: none</code>即可</p>
 <h4 id="_6-棋子的走法表示" tabindex="-1"><a class="header-anchor" href="#_6-棋子的走法表示" aria-hidden="true">#</a> 6.棋子的走法表示</h4>
 <p>一个走法包括起点和终点，分别用sqSrc和pcDst表示一维棋局数组中的起点和终点。很容易想到，使用数组[sqSrc, pcDst]表示一个走法。（我不考虑节省内存）</p>
@@ -948,7 +948,7 @@
 <li>
 <p><strong>将</strong></p>
 <p>将的走法有四个方向，如下图所示：</p>
-<p><img src="实验报告.assets/image-20220605225910517.png" alt="image-20220605225910517" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605225910517.png" alt="image-20220605225910517" loading="lazy"></p>
 <p>在一维数组中，1、2、3、4几个方向的起点和终点分别满足以下等式：</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>pcDst <span class="token operator">=</span> sqSrc <span class="token operator">-</span> <span class="token number">16</span>
 
@@ -962,7 +962,7 @@ pcDst <span class="token operator">=</span> sqSrc <span class="token operator">+
 <li>
 <p><strong>士</strong></p>
 <p>士的走法也是四个方向，如下所示:</p>
-<p><img src="实验报告.assets/image-20220605230051257.png" alt="image-20220605230051257" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605230051257.png" alt="image-20220605230051257" loading="lazy"></p>
 <p>士的4个方向分别满足以下等式：</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>pcDst <span class="token operator">=</span> sqSrc <span class="token operator">-</span> <span class="token number">17</span>
 
@@ -1311,29 +1311,29 @@ sqSrc <span class="token operator">+</span> <span class="token number">16</span>
 <p>主要模块的流程图：</p>
 <p>搜索算法的流程图如下：</p>
 <Mermaid id="mermaid-300885a8" code="flowchart%20TD%0A%20%20%20%20A%5B%22%E5%BC%80%E5%A7%8B%22%5D%0A%20%20%20%20B(%5B%22%E5%85%88%E5%AE%9A%E4%B9%89%E4%B8%80%E4%B8%AA%E5%8F%98%E9%87%8FmaxVal%EF%BC%8C%0A%20%20%20%20%E7%84%B6%E5%90%8E%E9%81%8D%E5%8E%86%E7%BA%A2%E6%96%B9%E6%A3%8B%E5%AD%90%0A%20%20%20%20(%E6%AF%8F%E6%AC%A1%E9%81%8D%E5%8E%86%E7%9A%84%E5%85%83%E7%B4%A0%EF%BC%9A%E7%BA%A2%E6%A3%8Bitem1)%22%5D)%0A%20%20%20%20C(%5B%22%E4%BD%BF%E7%94%A8machine_getExactStep(item1)%0A%20%20%20%20%E5%87%BD%E6%95%B0%E5%BE%97%E5%88%B0item1%E7%9A%84%E6%9C%80%E4%BD%B3%E8%B5%B0%E6%B3%95%5BsqSrc%2CsqDst%5D%22%5D)%0A%20%20%20%20C1(%5B%22%E4%BD%BF%E7%94%A8machine_evaluate(arr)%E5%87%BD%E6%95%B0%0A%20%20%20%20%E6%B1%82%E5%87%BA%E5%BD%93%E5%89%8D%E6%A3%8B%E7%9B%98%E7%9A%84%E4%BB%B7%E5%80%BC%EF%BC%8C%E5%85%B6%E4%B8%AD%E5%8F%82%E6%95%B0arr%E4%B8%BA%E5%BD%93%E5%89%8D%0A%20%20%20%20%E6%A3%8B%E7%9B%98%E6%95%B0%E7%BB%84%EF%BC%9B%E7%BB%93%E6%9E%9C%E4%BF%9D%E5%AD%98%E5%9C%A8val1%22%5D)%0A%09D%7Bval1%20%3E%20maxVal%3F%7D%0A%20%20%20%20E(%5B%22%E8%AE%B0%E5%BD%95%E5%BD%93%E5%89%8D%E6%9C%80%E5%A4%A7%E8%AF%84%E4%BC%B0%E5%80%BC%3A%20maxVal%3Dval1%3B%0A%20%20%20%20%E8%AE%B0%E5%BD%95%E6%AD%A4%E6%97%B6%E7%9A%84%E8%B5%B7%E7%82%B9%3A%20sqSrc_w%20%3D%20sqSrc%22%5D)%0A%20%20%20%20F%7B%22%E6%98%AF%E5%90%A6%E9%81%8D%E5%8E%86%E5%AE%8C%E7%BA%A2%E6%A3%8B%EF%BC%9F%22%7D%0A%20%20%20%20G%5B(%22%E6%AD%A4%E6%97%B6%E7%94%B5%E8%84%91%E5%B7%B2%E8%AE%A1%E7%AE%97%E5%87%BA%E7%BA%A2%E6%96%B9%0A%20%20%20%20%E6%9C%80%E6%9C%89%E5%8F%AF%E8%83%BD%E8%B5%B0%E7%9A%84%E6%A3%8B%E5%AD%90%EF%BC%8C%E5%8D%B3sqSrc_w%22)%5D%0A%20%20%20%20%0A%20%20%20%20J(%5B%22%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AA%E5%8F%98%E9%87%8FminVal%20%3D%20maxVal%2C%0A%20%20%20%20%E9%81%8D%E5%8E%86%E9%BB%91%E6%A3%8B%EF%BC%88item2%EF%BC%89%22%5D)%0A%20%20%20%20K(%5B%22%E9%81%8D%E5%8E%86%E9%BB%91%E6%A3%8Bitem2%E7%9A%84%E6%89%80%E6%9C%89%E8%B5%B0%E6%B3%95(item3)%22%5D)%0A%20%20%20%20L(%5B%22%E7%94%B5%E8%84%91%E5%86%85%E9%83%A8%E6%A8%A1%E6%8B%9F%E9%BB%91%E6%A3%8B%E4%BD%BF%0A%20%20%20%20%E7%94%A8%E4%BA%86%E8%B5%B0%E6%B3%95item3(%5BsqSrc%2CsqDst%5D)%22%5D)%0A%20%20%20%20M(%5B%22%E9%87%8D%E6%96%B0%E4%BD%BF%E7%94%A8machine_getExactStep(item3)%0A%20%20%20%20%E5%87%BD%E6%95%B0%E5%BE%97%E5%88%B0%E7%BA%A2%E6%A3%8BsqSrc_w%E7%9A%84%E6%9C%80%E4%BD%B3%E8%B5%B0%E6%B3%95%5BsqSrc_w%2CsqDst%5D%22%5D)%0A%20%20%20%20N(%5B%22%E7%94%B5%E8%84%91%E5%86%85%E9%83%A8%E6%A8%A1%E6%8B%9F%E8%AF%A5%E7%BA%A2%E6%A3%8B%E6%8C%89%E6%9C%80%E4%BD%B3%E8%B5%B0%E6%B3%95%E8%90%BD%E5%AD%90%22%5D)%0A%20%20%20%20O(%5B%22%E8%B0%83%E7%94%A8machine_evaluate(arr)%0A%20%20%20%20%E5%87%BD%E6%95%B0%E8%AE%A1%E7%AE%97%E6%AD%A4%E6%97%B6%E5%86%85%E9%83%A8%E6%A8%A1%E6%8B%9F%E6%A3%8B%E7%9B%98%E7%9A%84%E4%BB%B7%E5%80%BC%EF%BC%8C%0A%20%20%20%20%E5%85%B6%E4%B8%AD%E5%8F%82%E6%95%B0arr%E4%B8%BA%E6%A8%A1%E6%8B%9F%E6%A3%8B%E7%9B%98%E6%95%B0%E7%BB%84%3B%E7%BB%93%E6%9E%9C%E4%BF%9D%E5%AD%98%E5%9C%A8val2%E4%B8%AD%22%5D)%0A%20%20%20%20P%7Bval2%20%3C%20minVal%3F%7D%0A%20%20%20%20Q(%5B%22%E8%AE%B0%E5%BD%95%E5%BD%93%E5%89%8D%E6%9C%80%E5%B0%8F%E8%AF%84%E4%BC%B0%E5%80%BC%3A%20maxVal%3Dval1%3B%0A%20%20%20%20%E8%AE%B0%E5%BD%95%E6%AD%A4%E6%97%B6%E7%9A%84%E8%B5%B7%E7%82%B9%3A%20sqSrc_b%20%3D%20sqSrc%0A%20%20%20%20%E8%AE%B0%E5%BD%95%E6%AD%A4%E6%97%B6%E7%9A%84%E7%BB%88%E7%82%B9sqDst_b%20%3D%20sqDst%22%5D)%0A%20%20%20%20R%7B%22%E6%98%AF%E5%90%A6%E9%81%8D%E5%8E%86%E5%AE%8C%E8%AF%A5%E9%BB%91%E6%A3%8B%E7%9A%84%E8%B5%B0%E6%B3%95%EF%BC%9F%22%7D%0A%20%20%20%20S%7B%22%E6%98%AF%E5%90%A6%E9%81%8D%E5%8E%86%E5%AE%8C%E6%89%80%E6%9C%89%E9%BB%91%E6%A3%8B%EF%BC%9F%22%7D%0A%20%20%20%20T%5B(%22%E6%AD%A4%E6%97%B6%E7%94%B5%E8%84%91%E8%AE%A1%E7%AE%97%0A%20%20%20%20%E5%87%BA%E5%AF%B9%E5%AE%83%E6%9C%80%E6%9C%89%E5%88%A9%E7%9A%84%E8%B5%B0%E6%B3%95%5BsqSrc_b%2CsqDst_b%5D%22)%5D%0A%20%20%20%20%0A%20%20%20%20A%20--%3E%20B%20--%3E%20C%20--%3E%20C1%20--%3E%20D%0A%20%20%20%20D%20----%3E%7Cno%7C%20B%0A%20%20%20%20D%20--%3E%7Cyes%7C%20E%20--%3E%20F%0A%09F%20--%3E%7Cno%7C%20B%0A%09F%20--%3E%7Cyes%7CG%0A%09G%20--%3E%20J%20--%3E%20K%20--%3E%20L%20--%3E%20M%20--%3E%20N%20--%3E%20O%20--%3E%20P%0A%09P%20--%3E%7Cno%7CL%20%0A%09P%20--%3E%7Cyes%7C%20Q%20--%3E%20R%0A%09R%20--%3E%7Cno%7CK%0A%09R%20--%3E%7Cyes%7CS%0A%09S%20--%3E%7Cno%7CJ%0A%09S%20--%3E%7Cyes%7CT%0A"></Mermaid><p>项目运行结果：</p>
-<p><img src="实验报告.assets/image-20220605231838669.png" alt="image-20220605231838669" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605231838669.png" alt="image-20220605231838669" loading="lazy"></p>
 <p>点击链接，查看项目运行地址：</p>
-<p><img src="实验报告.assets/image-20220605231908645.png" alt="image-20220605231908645" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605231908645.png" alt="image-20220605231908645" loading="lazy"></p>
 <p>默认为玩家对战模式，尝试走棋，若走棋合法则该棋移动，走棋方切换；若不合法则不移动也不切换。</p>
-<p><img src="实验报告.assets/image-20220605232038825.png" alt="image-20220605232038825" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605232038825.png" alt="image-20220605232038825" loading="lazy"></p>
 <p>鼠标悬浮在人机对战按钮上，会提示被动技能相关信息：</p>
-<p><img src="实验报告.assets/image-20220605232209053.png" alt="image-20220605232209053" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605232209053.png" alt="image-20220605232209053" loading="lazy"></p>
 <p>点击人机对战后：</p>
-<p><img src="实验报告.assets/image-20220605232310274.png" alt="image-20220605232310274" loading="lazy"></p>
-<p><img src="实验报告.assets/image-20220605232314472.png" alt="image-20220605232314472" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605232310274.png" alt="image-20220605232310274" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605232314472.png" alt="image-20220605232314472" loading="lazy"></p>
 <p>电脑走棋时会给用户提示电脑移动了哪步棋：</p>
-<p><img src="实验报告.assets/image-20220605232518947.png" alt="image-20220605232518947" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605232518947.png" alt="image-20220605232518947" loading="lazy"></p>
 <p>触发替父从军：</p>
-<p><img src="实验报告.assets/image-20220605232642449.png" alt="image-20220605232642449" loading="lazy"></p>
-<p><img src="实验报告.assets/image-20220605232655918.png" alt="image-20220605232655918" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605232642449.png" alt="image-20220605232642449" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605232655918.png" alt="image-20220605232655918" loading="lazy"></p>
 <p>触发兵线刷新：</p>
-<p><img src="实验报告.assets/image-20220605232758291.png" alt="image-20220605232758291" loading="lazy"></p>
-<p><img src="实验报告.assets/image-20220605232808275.png" alt="image-20220605232808275" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605232758291.png" alt="image-20220605232758291" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605232808275.png" alt="image-20220605232808275" loading="lazy"></p>
 <p>触发草木皆兵：</p>
-<p><img src="实验报告.assets/image-20220605232926165.png" alt="image-20220605232926165" loading="lazy"></p>
-<p><img src="实验报告.assets/image-20220605232937020.png" alt="image-20220605232937020" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605232926165.png" alt="image-20220605232926165" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605232937020.png" alt="image-20220605232937020" loading="lazy"></p>
 <p>一方胜利后会有评分结算：</p>
-<p><img src="实验报告.assets/image-20220605232433106.png" alt="image-20220605232433106" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/实验报告.assets/image-20220605232433106.png" alt="image-20220605232433106" loading="lazy"></p>
 </li>
 <li>
 <p>设计过程中出现的错误。</p>

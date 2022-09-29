@@ -1,5 +1,5 @@
 <template><div><div class="custom-container tip">
-<p class="custom-container-title">Tips</p>
+<p class="custom-container-title">提示</p>
 <p>该实验报告分为两部分：</p>
 <ul>
 <li>
@@ -237,11 +237,11 @@
 <p>vhdl:</p>
 <p><img src="@source/课程实验/数电实验/时序电路的设计与实现.assets/image-20220513213807421.png" alt="image-20220513213807421" loading="lazy"></p>
 <p>vhdl编译成功：</p>
-<p><img src="时序电路的设计与实现.assets/image-20220513213852662.png" alt="image-20220513213852662" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/时序电路的设计与实现.assets/image-20220513213852662.png" alt="image-20220513213852662" loading="lazy"></p>
 <p>波形仿真成功：</p>
-<p><img src="时序电路的设计与实现.assets/image-20220513214029524.png" alt="image-20220513214029524" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/时序电路的设计与实现.assets/image-20220513214029524.png" alt="image-20220513214029524" loading="lazy"></p>
 <p>仿真波形：</p>
-<p><img src="时序电路的设计与实现.assets/image-20220513214053420.png" alt="image-20220513214053420" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/时序电路的设计与实现.assets/image-20220513214053420.png" alt="image-20220513214053420" loading="lazy"></p>
 <ul>
 <li>
 <h3 id="结果分析-2" tabindex="-1"><a class="header-anchor" href="#结果分析-2" aria-hidden="true">#</a> 结果分析</h3>
@@ -294,11 +294,11 @@
 </ul>
 <p><img src="@source/课程实验/数电实验/时序电路的设计与实现.assets/image-20220513222820929.png" alt="image-20220513222820929" loading="lazy"></p>
 <p>​			vhdl编译成功：</p>
-<p><img src="时序电路的设计与实现.assets/image-20220513223001693.png" alt="image-20220513223001693" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/时序电路的设计与实现.assets/image-20220513223001693.png" alt="image-20220513223001693" loading="lazy"></p>
 <p>​		波形仿真成功：</p>
-<p><img src="时序电路的设计与实现.assets/image-20220513223103300.png" alt="image-20220513223103300" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/时序电路的设计与实现.assets/image-20220513223103300.png" alt="image-20220513223103300" loading="lazy"></p>
 <p>​		仿真波形：</p>
-<p><img src="时序电路的设计与实现.assets/image-20220513223233435.png" alt="image-20220513223233435" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/时序电路的设计与实现.assets/image-20220513223233435.png" alt="image-20220513223233435" loading="lazy"></p>
 <ul>
 <li>
 <p>结果分析：</p>
@@ -309,7 +309,7 @@
 <ul>
 <li>
 <h3 id="外观图-4" tabindex="-1"><a class="header-anchor" href="#外观图-4" aria-hidden="true">#</a> 外观图：</h3>
-<p><img src="assets/计时器.png" alt="img" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/assets/计时器.png" alt="img" loading="lazy"></p>
 <ul>
 <li>
 <h3 id="vhdl代码-4" tabindex="-1"><a class="header-anchor" href="#vhdl代码-4" aria-hidden="true">#</a> vhdl代码：</h3>
@@ -363,13 +363,13 @@
 <li>
 <h3 id="一些工程文件截图-4" tabindex="-1"><a class="header-anchor" href="#一些工程文件截图-4" aria-hidden="true">#</a> 一些工程文件截图</h3>
 <p>vhdl代码：</p>
-<p><img src="时序电路的设计与实现.assets/image-20220513234059091.png" alt="image-20220513234059091" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/时序电路的设计与实现.assets/image-20220513234059091.png" alt="image-20220513234059091" loading="lazy"></p>
 <p>vhdl编译成功：</p>
-<p><img src="时序电路的设计与实现.assets/image-20220513234131938.png" alt="image-20220513234131938" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/时序电路的设计与实现.assets/image-20220513234131938.png" alt="image-20220513234131938" loading="lazy"></p>
 <p>波形仿真成功：</p>
-<p><img src="时序电路的设计与实现.assets/image-20220513234154946.png" alt="image-20220513234154946" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/时序电路的设计与实现.assets/image-20220513234154946.png" alt="image-20220513234154946" loading="lazy"></p>
 <p>仿真波形：</p>
-<p><img src="时序电路的设计与实现.assets/image-20220513234510604.png" alt="image-20220513234510604" loading="lazy"></p>
+<p><img src="@source/课程实验/数电实验/时序电路的设计与实现.assets/image-20220513234510604.png" alt="image-20220513234510604" loading="lazy"></p>
 </li>
 <li>
 <h3 id="结果分析-3" tabindex="-1"><a class="header-anchor" href="#结果分析-3" aria-hidden="true">#</a> 结果分析：</h3>

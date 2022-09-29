@@ -5,7 +5,7 @@
 <h2 id="走法表示" tabindex="-1"><a class="header-anchor" href="#走法表示" aria-hidden="true">#</a> 走法表示</h2>
 <p>一个走法包括起点和终点，分别用sqSrc和pcDst表示一维棋局数组中的起点和终点。很容易想到，使用数组[sqSrc, pcDst]表示一个走法。（我不考虑节省内存）</p>
 <div class="custom-container tip">
-<p class="custom-container-title">Tips</p>
+<p class="custom-container-title">提示</p>
 <p>如果想节省内存，由于sqSrc和pcDst都是不超过255的整数（因为一维棋盘数组的大小是256），可以将sqSrc和pcDst压缩到一个整数中，算法如下：</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token comment">// 获取走法的起点</span>
 <span class="token keyword">function</span> <span class="token constant">SRC</span><span class="token punctuation">(</span><span class="token parameter">mv</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -60,7 +60,7 @@ pcDst <span class="token operator">=</span> sqSrc <span class="token operator">+
 <p>象眼位于sqSrc和sqDst的中点，判断(sqSrc + sqDst)/2 的位置是否有棋子即可。</p>
 <h3 id="马" tabindex="-1"><a class="header-anchor" href="#马" aria-hidden="true">#</a> 马</h3>
 <p>马的8个走法如下图所示，黑三角是相应的马脚位置</p>
-<p><img src="05_chess2.assets/image-20220524103951071.png" alt="image-20220524103951071" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/05_chess2.assets/image-20220524103951071.png" alt="image-20220524103951071" loading="lazy"></p>
 <p>马的8个方向满足以下等式：</p>
 <div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>pcDst <span class="token operator">=</span> sqSrc <span class="token operator">-</span> <span class="token number">33</span>
 pcDst <span class="token operator">=</span> sqSrc <span class="token operator">-</span> <span class="token number">31</span>
@@ -125,7 +125,7 @@ sqSrc <span class="token operator">+</span> <span class="token number">16</span>
 <p>因此马的走法合法，只需要满足sqPin != sqSrc并且sqPin位置无棋子。</p>
 <h3 id="车、炮" tabindex="-1"><a class="header-anchor" href="#车、炮" aria-hidden="true">#</a> 车、炮</h3>
 <p>车的走法如下图所示：</p>
-<p><img src="05_chess2.assets/image-20220524112305759.png" alt="image-20220524112305759" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/05_chess2.assets/image-20220524112305759.png" alt="image-20220524112305759" loading="lazy"></p>
 <p>沿着四条直线走，每个方向可一直向前走，直到：</p>
 <p>（1）、走出棋盘</p>
 <p>（2）、碰到本方棋子</p>
@@ -135,7 +135,7 @@ sqSrc <span class="token operator">+</span> <span class="token number">16</span>
 <p>具体校验算法可参看代码。</p>
 <h3 id="卒-兵-的走法" tabindex="-1"><a class="header-anchor" href="#卒-兵-的走法" aria-hidden="true">#</a> 卒（兵）的走法</h3>
 <p>红兵的走法如下图所示：</p>
-<p><img src="05_chess2.assets/image-20220524112420825.png" alt="image-20220524112420825" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/05_chess2.assets/image-20220524112420825.png" alt="image-20220524112420825" loading="lazy"></p>
 <p>（1）、判断是否过河</p>
 <p>以红方为例，红方是向上走。如果红方过河，则会走到棋盘0到127的位置，此时所处位置的二进制表示，右起第8位是0。（因为128的二进制是1000 0000，这与之前讲过的SAME_HALF函数类似）</p>
 <p>判断函数如下：</p>

@@ -54,12 +54,12 @@
 <p>​	缺点也显而易见：占用存储空间较大。</p>
 <p>对于设计者来说，在软硬件条件允许时，简单的逻辑显然更受欢迎。而对于该系统，即使定义一个uint32_t类型，也不会造成什么负担。所以我选择了方案二。</p>
 <p>在CubeMX中，按如下步骤进行定时器1的相关配置：</p>
-<p><img src="stm32.assets/image-20220615210549497.png" alt="image-20220615210549497" loading="lazy"></p>
+<p><img src="@source/课程实验/单片机实验/stm32.assets/image-20220615210549497.png" alt="image-20220615210549497" loading="lazy"></p>
 <p>其中<strong>PSC</strong>处是配置分频系数，<strong>Counter Period</strong>处是配置定时器的计数上限值，当达到该上限值时执行中断服务函数。</p>
-<p><img src="stm32.assets/image-20220615211242128.png" alt="image-20220615211242128" loading="lazy"></p>
+<p><img src="@source/课程实验/单片机实验/stm32.assets/image-20220615211242128.png" alt="image-20220615211242128" loading="lazy"></p>
 <p>配置为定时器更新时触发中断。别忘了配置时钟源为内部时钟。</p>
 <p>使能定时器相应的中断：</p>
-<p><img src="stm32.assets/image-20220615211431885.png" alt="image-20220615211431885" loading="lazy"></p>
+<p><img src="@source/课程实验/单片机实验/stm32.assets/image-20220615211431885.png" alt="image-20220615211431885" loading="lazy"></p>
 <p>最后在程序中执行函数<code v-pre>HAL_TIM_Base_Start_IT(&amp;htim1);</code>即可启动定时器1。定时器的中断服务函数如下：</p>
 <div class="language-c ext-c line-numbers-mode"><pre v-pre class="language-c"><code><span class="token keyword">void</span> <span class="token function">HAL_TIM_PeriodElapsedCallback</span><span class="token punctuation">(</span>TIM_HandleTypeDef <span class="token operator">*</span>htim<span class="token punctuation">)</span>
 <span class="token punctuation">{</span>

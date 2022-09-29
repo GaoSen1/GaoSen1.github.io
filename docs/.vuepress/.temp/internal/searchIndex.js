@@ -1,252 +1,37 @@
 export const searchIndex = [
   {
-    "title": "Intro Page",
+    "title": "介绍页",
     "headers": [],
     "path": "/intro.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Blog Home",
+    "title": "主页",
     "headers": [],
     "path": "/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Slide page",
+    "title": "幻灯片页",
     "headers": [],
     "path": "/slides.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Disabling layout and features",
+    "title": "布局与功能禁用",
     "headers": [],
     "path": "/demo/disable.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Encryption Article",
+    "title": "密码加密的文章",
     "headers": [],
     "path": "/demo/encrypt.html",
     "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Markdown Enhance",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Markdown Introduction",
-        "slug": "markdown-introduction",
-        "link": "#markdown-introduction",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Markdown Config",
-        "slug": "markdown-config",
-        "link": "#markdown-config",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Markdown Extension",
-        "slug": "markdown-extension",
-        "link": "#markdown-extension",
-        "children": [
-          {
-            "level": 3,
-            "title": "VuePress Enhancement",
-            "slug": "vuepress-enhancement",
-            "link": "#vuepress-enhancement",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Theme Enhancement",
-            "slug": "theme-enhancement",
-            "link": "#theme-enhancement",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/demo/markdown.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Page Config",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Page Information",
-        "slug": "page-information",
-        "link": "#page-information",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Page Content",
-        "slug": "page-content",
-        "link": "#page-content",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Page Structure",
-        "slug": "page-structure",
-        "link": "#page-structure",
-        "children": []
-      }
-    ],
-    "path": "/demo/page.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Guides",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Catalog",
-        "slug": "catalog",
-        "link": "#catalog",
-        "children": []
-      }
-    ],
-    "path": "/demo/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Cherry",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/posts/cherry.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Dragonfruit",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/posts/dragonfruit.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Strawberry",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/posts/strawberry.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Tomato",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/posts/tomato.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "介绍页",
-    "headers": [],
-    "path": "/zh/intro.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "博客主页",
-    "headers": [],
-    "path": "/zh/",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "幻灯片页",
-    "headers": [],
-    "path": "/zh/slides.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "布局与功能禁用",
-    "headers": [],
-    "path": "/zh/demo/disable.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "密码加密的文章",
-    "headers": [],
-    "path": "/zh/demo/encrypt.html",
-    "pathLocale": "/zh/",
     "extraFields": []
   },
   {
@@ -296,8 +81,8 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/zh/demo/markdown.html",
-    "pathLocale": "/zh/",
+    "path": "/demo/markdown.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -325,8 +110,8 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/zh/demo/page.html",
-    "pathLocale": "/zh/",
+    "path": "/demo/page.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -340,8 +125,29 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/zh/demo/",
-    "pathLocale": "/zh/",
+    "path": "/demo/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Intro Page",
+    "headers": [],
+    "path": "/en/intro.html",
+    "pathLocale": "/en/",
+    "extraFields": []
+  },
+  {
+    "title": "Blog Home",
+    "headers": [],
+    "path": "/en/",
+    "pathLocale": "/en/",
+    "extraFields": []
+  },
+  {
+    "title": "Slide page",
+    "headers": [],
+    "path": "/en/slides.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
@@ -363,8 +169,8 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/zh/posts/cherry.html",
-    "pathLocale": "/zh/",
+    "path": "/posts/cherry.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -386,8 +192,8 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/zh/posts/dragonfruit.html",
-    "pathLocale": "/zh/",
+    "path": "/posts/dragonfruit.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -409,8 +215,8 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/zh/posts/strawberry.html",
-    "pathLocale": "/zh/",
+    "path": "/posts/strawberry.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -432,12 +238,114 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/zh/posts/tomato.html",
-    "pathLocale": "/zh/",
+    "path": "/posts/tomato.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Banana 1",
+    "title": "Disabling layout and features",
+    "headers": [],
+    "path": "/en/demo/disable.html",
+    "pathLocale": "/en/",
+    "extraFields": []
+  },
+  {
+    "title": "Encryption Article",
+    "headers": [],
+    "path": "/en/demo/encrypt.html",
+    "pathLocale": "/en/",
+    "extraFields": []
+  },
+  {
+    "title": "Markdown Enhance",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Markdown Introduction",
+        "slug": "markdown-introduction",
+        "link": "#markdown-introduction",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Markdown Config",
+        "slug": "markdown-config",
+        "link": "#markdown-config",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Markdown Extension",
+        "slug": "markdown-extension",
+        "link": "#markdown-extension",
+        "children": [
+          {
+            "level": 3,
+            "title": "VuePress Enhancement",
+            "slug": "vuepress-enhancement",
+            "link": "#vuepress-enhancement",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Theme Enhancement",
+            "slug": "theme-enhancement",
+            "link": "#theme-enhancement",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/en/demo/markdown.html",
+    "pathLocale": "/en/",
+    "extraFields": []
+  },
+  {
+    "title": "Page Config",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Page Information",
+        "slug": "page-information",
+        "link": "#page-information",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Page Content",
+        "slug": "page-content",
+        "link": "#page-content",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Page Structure",
+        "slug": "page-structure",
+        "link": "#page-structure",
+        "children": []
+      }
+    ],
+    "path": "/en/demo/page.html",
+    "pathLocale": "/en/",
+    "extraFields": []
+  },
+  {
+    "title": "Guides",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Catalog",
+        "slug": "catalog",
+        "link": "#catalog",
+        "children": []
+      }
+    ],
+    "path": "/en/demo/",
+    "pathLocale": "/en/",
+    "extraFields": []
+  },
+  {
+    "title": "Cherry",
     "headers": [
       {
         "level": 2,
@@ -455,12 +363,12 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/posts/banana/1.html",
-    "pathLocale": "/",
+    "path": "/en/posts/cherry.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
-    "title": "Banana 2",
+    "title": "Dragonfruit",
     "headers": [
       {
         "level": 2,
@@ -478,12 +386,12 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/posts/banana/2.html",
-    "pathLocale": "/",
+    "path": "/en/posts/dragonfruit.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
-    "title": "Banana 3",
+    "title": "Strawberry",
     "headers": [
       {
         "level": 2,
@@ -501,12 +409,12 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/posts/banana/3.html",
-    "pathLocale": "/",
+    "path": "/en/posts/strawberry.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
-    "title": "Banana 4",
+    "title": "Tomato",
     "headers": [
       {
         "level": 2,
@@ -524,100 +432,8 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/posts/banana/4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Apple 1",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/posts/apple/1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Apple 2",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/posts/apple/2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Apple 3",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/posts/apple/3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Apple 4",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/posts/apple/4.html",
-    "pathLocale": "/",
+    "path": "/en/posts/tomato.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
@@ -639,8 +455,8 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/zh/posts/apple/1.html",
-    "pathLocale": "/zh/",
+    "path": "/posts/apple/1.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -662,8 +478,8 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/zh/posts/apple/2.html",
-    "pathLocale": "/zh/",
+    "path": "/posts/apple/2.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -685,8 +501,8 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/zh/posts/apple/3.html",
-    "pathLocale": "/zh/",
+    "path": "/posts/apple/3.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -708,8 +524,8 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/zh/posts/apple/4.html",
-    "pathLocale": "/zh/",
+    "path": "/posts/apple/4.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -731,8 +547,8 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/zh/posts/banana/1.html",
-    "pathLocale": "/zh/",
+    "path": "/posts/banana/1.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -754,8 +570,8 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/zh/posts/banana/2.html",
-    "pathLocale": "/zh/",
+    "path": "/posts/banana/2.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -777,8 +593,8 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/zh/posts/banana/3.html",
-    "pathLocale": "/zh/",
+    "path": "/posts/banana/3.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -800,8 +616,138 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/zh/posts/banana/4.html",
-    "pathLocale": "/zh/",
+    "path": "/posts/banana/4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "快速上手",
+    "headers": [
+      {
+        "level": 2,
+        "title": "监听图表容器的大小并改变图表大小",
+        "slug": "监听图表容器的大小并改变图表大小",
+        "link": "#监听图表容器的大小并改变图表大小",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "容器节点被销毁以及被重建时",
+        "slug": "容器节点被销毁以及被重建时",
+        "link": "#容器节点被销毁以及被重建时",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "在数据集中设置数据",
+        "slug": "在数据集中设置数据",
+        "link": "#在数据集中设置数据",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用 transform 进行数据转换",
+        "slug": "使用-transform-进行数据转换",
+        "link": "#使用-transform-进行数据转换",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "维度dimension",
+        "slug": "维度dimension",
+        "link": "#维度dimension",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "数据到图形的映射(series.encode)",
+        "slug": "数据到图形的映射-series-encode",
+        "link": "#数据到图形的映射-series-encode",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "几个常见的 series.encode 设置方式举例",
+        "slug": "几个常见的-series-encode-设置方式举例",
+        "link": "#几个常见的-series-encode-设置方式举例",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "应用",
+        "slug": "应用",
+        "link": "#应用",
+        "children": [
+          {
+            "level": 3,
+            "title": "动态排序柱状图",
+            "slug": "动态排序柱状图",
+            "link": "#动态排序柱状图",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "阶梯线图",
+            "slug": "阶梯线图",
+            "link": "#阶梯线图",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/echarts.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "写在前面",
+    "headers": [
+      {
+        "level": 2,
+        "title": "工具库",
+        "slug": "工具库",
+        "link": "#工具库",
+        "children": []
+      }
+    ],
+    "path": "/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "地图",
+    "headers": [],
+    "path": "/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%9C%B0%E5%9B%BE.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "引用特殊字体的几种方案",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.有字库",
+        "slug": "_1-有字库",
+        "link": "#_1-有字库",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.字蛛",
+        "slug": "_2-字蛛",
+        "link": "#_2-字蛛",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.最终方案：Fontmin",
+        "slug": "_3-最终方案-fontmin",
+        "link": "#_3-最终方案-fontmin",
+        "children": []
+      }
+    ],
+    "path": "/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%BC%95%E7%94%A8%E5%AD%97%E4%BD%93.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -815,8 +761,8 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%BB%BA%E7%AB%99%E6%89%8B%E5%86%8C/",
-    "pathLocale": "/zh/",
+    "path": "/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%BB%BA%E7%AB%99%E6%89%8B%E5%86%8C/",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -908,8 +854,8 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%BB%BA%E7%AB%99%E6%89%8B%E5%86%8C/%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91.html",
-    "pathLocale": "/zh/",
+    "path": "/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%BB%BA%E7%AB%99%E6%89%8B%E5%86%8C/%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -973,1686 +919,205 @@ export const searchIndex = [
       },
       {
         "level": 2,
+        "title": "使用vercel部署到线上",
+        "slug": "使用vercel部署到线上",
+        "link": "#使用vercel部署到线上",
+        "children": []
+      },
+      {
+        "level": 2,
         "title": "下次遇到新的坑再更新",
         "slug": "下次遇到新的坑再更新",
         "link": "#下次遇到新的坑再更新",
         "children": []
       }
     ],
-    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%BB%BA%E7%AB%99%E6%89%8B%E5%86%8C/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95.html",
-    "pathLocale": "/zh/",
+    "path": "/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%BB%BA%E7%AB%99%E6%89%8B%E5%86%8C/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "快速上手",
+    "title": "Apple 1",
     "headers": [
       {
         "level": 2,
-        "title": "监听图表容器的大小并改变图表大小",
-        "slug": "监听图表容器的大小并改变图表大小",
-        "link": "#监听图表容器的大小并改变图表大小",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "容器节点被销毁以及被重建时",
-        "slug": "容器节点被销毁以及被重建时",
-        "link": "#容器节点被销毁以及被重建时",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "在数据集中设置数据",
-        "slug": "在数据集中设置数据",
-        "link": "#在数据集中设置数据",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "使用 transform 进行数据转换",
-        "slug": "使用-transform-进行数据转换",
-        "link": "#使用-transform-进行数据转换",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "维度dimension",
-        "slug": "维度dimension",
-        "link": "#维度dimension",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "数据到图形的映射(series.encode)",
-        "slug": "数据到图形的映射-series-encode",
-        "link": "#数据到图形的映射-series-encode",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "几个常见的 series.encode 设置方式举例",
-        "slug": "几个常见的-series-encode-设置方式举例",
-        "link": "#几个常见的-series-encode-设置方式举例",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "应用",
-        "slug": "应用",
-        "link": "#应用",
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
         "children": [
           {
             "level": 3,
-            "title": "动态排序柱状图",
-            "slug": "动态排序柱状图",
-            "link": "#动态排序柱状图",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "阶梯线图",
-            "slug": "阶梯线图",
-            "link": "#阶梯线图",
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
             "children": []
           }
         ]
       }
     ],
-    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/echarts.html",
-    "pathLocale": "/zh/",
+    "path": "/en/posts/apple/1.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
-    "title": "写在前面",
+    "title": "Apple 2",
     "headers": [
       {
         "level": 2,
-        "title": "工具库",
-        "slug": "工具库",
-        "link": "#工具库",
-        "children": []
-      }
-    ],
-    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "地图",
-    "headers": [],
-    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%9C%B0%E5%9B%BE.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "引用特殊字体的几种方案",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.有字库",
-        "slug": "_1-有字库",
-        "link": "#_1-有字库",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.字蛛",
-        "slug": "_2-字蛛",
-        "link": "#_2-字蛛",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.最终方案：Fontmin",
-        "slug": "_3-最终方案-fontmin",
-        "link": "#_3-最终方案-fontmin",
-        "children": []
-      }
-    ],
-    "path": "/zh/Web%E5%89%8D%E7%AB%AF%E7%9B%B8%E5%85%B3/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%BC%95%E7%94%A8%E5%AD%97%E4%BD%93.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "设计方案",
-    "headers": [
-      {
-        "level": 2,
-        "title": "题目",
-        "slug": "题目",
-        "link": "#题目",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "概述",
-        "slug": "概述",
-        "link": "#概述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "总体设计",
-        "slug": "总体设计",
-        "link": "#总体设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "思路",
-        "slug": "思路",
-        "link": "#思路",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/01_waveform.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "演示效果",
-    "headers": [],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/01_waveform_demo.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "设计方案",
-    "headers": [
-      {
-        "level": 2,
-        "title": "题目",
-        "slug": "题目",
-        "link": "#题目",
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
         "children": [
           {
             "level": 3,
-            "title": "已知各音阶标称频率值： （HZ）",
-            "slug": "已知各音阶标称频率值-hz",
-            "link": "#已知各音阶标称频率值-hz",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "完成一个程序，实现如下功能",
-            "slug": "完成一个程序-实现如下功能",
-            "link": "#完成一个程序-实现如下功能",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "概述",
-        "slug": "概述",
-        "link": "#概述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "总体设计",
-        "slug": "总体设计",
-        "link": "#总体设计",
-        "children": [
-          {
-            "level": 3,
-            "title": "思路",
-            "slug": "思路",
-            "link": "#思路",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "任务（1）",
-            "slug": "任务-1",
-            "link": "#任务-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "任务（2）",
-            "slug": "任务-2",
-            "link": "#任务-2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "改进空间:",
-            "slug": "改进空间",
-            "link": "#改进空间",
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
             "children": []
           }
         ]
       }
     ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/02_piano.html",
-    "pathLocale": "/zh/",
+    "path": "/en/posts/apple/2.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
-    "title": "演示效果",
-    "headers": [],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/02_piano_demo.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "设计方案",
+    "title": "Apple 3",
     "headers": [
       {
         "level": 2,
-        "title": "定义",
-        "slug": "定义",
-        "link": "#定义",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "思路",
-        "slug": "思路",
-        "link": "#思路",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/03_sample.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "演示效果",
-    "headers": [],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/03_sample_demo.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "设计方案",
-    "headers": [
-      {
-        "level": 2,
-        "title": "题目",
-        "slug": "题目",
-        "link": "#题目",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/04_prize.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "演示效果",
-    "headers": [],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/04_prize_demo.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "象棋的设计(1):设计图形界面",
-    "headers": [
-      {
-        "level": 2,
-        "title": "题目",
-        "slug": "题目",
-        "link": "#题目",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "棋盘表示",
-        "slug": "棋盘表示",
-        "link": "#棋盘表示",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "棋子表示",
-        "slug": "棋子表示",
-        "link": "#棋子表示",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "字符串表示局面",
-        "slug": "字符串表示局面",
-        "link": "#字符串表示局面",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "棋盘相关的html、css",
-        "slug": "棋盘相关的html、css",
-        "link": "#棋盘相关的html、css",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/05_chess1.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "象棋的设计(2):棋子的走法",
-    "headers": [
-      {
-        "level": 2,
-        "title": "走法表示",
-        "slug": "走法表示",
-        "link": "#走法表示",
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
         "children": [
           {
             "level": 3,
-            "title": "将",
-            "slug": "将",
-            "link": "#将",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "士",
-            "slug": "士",
-            "link": "#士",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "象",
-            "slug": "象",
-            "link": "#象",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "马",
-            "slug": "马",
-            "link": "#马",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "车、炮",
-            "slug": "车、炮",
-            "link": "#车、炮",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "卒（兵）的走法",
-            "slug": "卒-兵-的走法",
-            "link": "#卒-兵-的走法",
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
             "children": []
           }
         ]
       }
     ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/05_chess2.html",
-    "pathLocale": "/zh/",
+    "path": "/en/posts/apple/3.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
-    "title": "象棋的设计(3):电脑自动走棋",
+    "title": "Apple 4",
     "headers": [
       {
         "level": 2,
-        "title": "走法生成",
-        "slug": "走法生成",
-        "link": "#走法生成",
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
         "children": [
           {
             "level": 3,
-            "title": "将（帅）",
-            "slug": "将-帅",
-            "link": "#将-帅",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "仕",
-            "slug": "仕",
-            "link": "#仕",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "象",
-            "slug": "象",
-            "link": "#象",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "马",
-            "slug": "马",
-            "link": "#马",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "车",
-            "slug": "车",
-            "link": "#车",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "炮",
-            "slug": "炮",
-            "link": "#炮",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "兵",
-            "slug": "兵",
-            "link": "#兵",
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
             "children": []
           }
         ]
       }
     ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/05_chessx.html",
-    "pathLocale": "/zh/",
+    "path": "/en/posts/apple/4.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
-    "title": "象棋的设计(4):搜索算法",
+    "title": "Banana 1",
     "headers": [
       {
         "level": 2,
-        "title": "局面评估",
-        "slug": "局面评估",
-        "link": "#局面评估",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "搜索算法",
-        "slug": "搜索算法",
-        "link": "#搜索算法",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/05_chessx2.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "象棋效果演示",
-    "headers": [],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/05_chess_demo.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "写在前面",
-    "headers": [
-      {
-        "level": 2,
-        "title": "此专栏为博主的专业课设实验，计划将全部实验集成到个人博客中，非常的银杏😋",
-        "slug": "此专栏为博主的专业课设实验-计划将全部实验集成到个人博客中-非常的银杏",
-        "link": "#此专栏为博主的专业课设实验-计划将全部实验集成到个人博客中-非常的银杏",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "实验报告：专业实验",
-    "headers": [
-      {
-        "level": 2,
-        "title": "数字波形生成",
-        "slug": "数字波形生成",
-        "link": "#数字波形生成",
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
         "children": [
           {
             "level": 3,
-            "title": "1.概述",
-            "slug": "_1-概述",
-            "link": "#_1-概述",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.总体设计",
-            "slug": "_2-总体设计",
-            "link": "#_2-总体设计",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.详细设计及实现",
-            "slug": "_3-详细设计及实现",
-            "link": "#_3-详细设计及实现",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.结论",
-            "slug": "_4-结论",
-            "link": "#_4-结论",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.结束语",
-            "slug": "_5-结束语",
-            "link": "#_5-结束语",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.程序清单",
-            "slug": "_6-程序清单",
-            "link": "#_6-程序清单",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "电子钢琴",
-        "slug": "电子钢琴",
-        "link": "#电子钢琴",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.概述",
-            "slug": "_1-概述-1",
-            "link": "#_1-概述-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.总体设计",
-            "slug": "_2-总体设计-1",
-            "link": "#_2-总体设计-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.详细设计及实现",
-            "slug": "_3-详细设计及实现-1",
-            "link": "#_3-详细设计及实现-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.结论",
-            "slug": "_4-结论-1",
-            "link": "#_4-结论-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.结束语",
-            "slug": "_5-结束语-1",
-            "link": "#_5-结束语-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.程序清单",
-            "slug": "_6-程序清单-1",
-            "link": "#_6-程序清单-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "采样定理",
-        "slug": "采样定理",
-        "link": "#采样定理",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.概述",
-            "slug": "_1-概述-2",
-            "link": "#_1-概述-2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.总体设计",
-            "slug": "_2-总体设计-2",
-            "link": "#_2-总体设计-2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.详细设计及实现",
-            "slug": "_3-详细设计及实现-2",
-            "link": "#_3-详细设计及实现-2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.结论",
-            "slug": "_4-结论-2",
-            "link": "#_4-结论-2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.结束语",
-            "slug": "_5-结束语-2",
-            "link": "#_5-结束语-2",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "兑奖算法",
-        "slug": "兑奖算法",
-        "link": "#兑奖算法",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.概述",
-            "slug": "_1-概述-3",
-            "link": "#_1-概述-3",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.总体设计",
-            "slug": "_2-总体设计-3",
-            "link": "#_2-总体设计-3",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.详细设计及实现",
-            "slug": "_3-详细设计及实现-3",
-            "link": "#_3-详细设计及实现-3",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.结论",
-            "slug": "_4-结论-3",
-            "link": "#_4-结论-3",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.结束语",
-            "slug": "_5-结束语-3",
-            "link": "#_5-结束语-3",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.程序清单",
-            "slug": "_6-程序清单-2",
-            "link": "#_6-程序清单-2",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "中国象棋",
-        "slug": "中国象棋",
-        "link": "#中国象棋",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.概述",
-            "slug": "_1-概述-4",
-            "link": "#_1-概述-4",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.总体设计",
-            "slug": "_2-总体设计-4",
-            "link": "#_2-总体设计-4",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.详细设计及实现",
-            "slug": "_3-详细设计及实现-4",
-            "link": "#_3-详细设计及实现-4",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.结论",
-            "slug": "_4-结论-4",
-            "link": "#_4-结论-4",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.结束语",
-            "slug": "_5-结束语-4",
-            "link": "#_5-结束语-4",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.程序清单",
-            "slug": "_6-程序清单-3",
-            "link": "#_6-程序清单-3",
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
             "children": []
           }
         ]
       }
     ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.html",
-    "pathLocale": "/zh/",
+    "path": "/en/posts/banana/1.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
-    "title": "写在前面",
+    "title": "Banana 2",
     "headers": [
       {
         "level": 2,
-        "title": "单片机实验",
-        "slug": "单片机实验",
-        "link": "#单片机实验",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E5%8D%95%E7%89%87%E6%9C%BA%E5%AE%9E%E9%AA%8C/",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "电子时钟",
-    "headers": [
-      {
-        "level": 2,
-        "title": "前言",
-        "slug": "前言",
-        "link": "#前言",
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
         "children": [
           {
             "level": 3,
-            "title": "背景",
-            "slug": "背景",
-            "link": "#背景",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "定义",
-            "slug": "定义",
-            "link": "#定义",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "需求分析",
-            "slug": "需求分析",
-            "link": "#需求分析",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总结",
-            "slug": "总结",
-            "link": "#总结",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "详细设计",
-        "slug": "详细设计",
-        "link": "#详细设计",
-        "children": [
-          {
-            "level": 3,
-            "title": "功能分析",
-            "slug": "功能分析",
-            "link": "#功能分析",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "工作原理",
-            "slug": "工作原理",
-            "link": "#工作原理",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "效果演示",
-        "slug": "效果演示",
-        "link": "#效果演示",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "main.c：",
-        "slug": "main-c",
-        "link": "#main-c",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "seg7.c:",
-        "slug": "seg7-c",
-        "link": "#seg7-c",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E5%8D%95%E7%89%87%E6%9C%BA%E5%AE%9E%E9%AA%8C/%E7%94%B5%E5%AD%90%E6%97%B6%E9%92%9F.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "写在前面",
-    "headers": [
-      {
-        "level": 2,
-        "title": "数电实验",
-        "slug": "数电实验",
-        "link": "#数电实验",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E6%95%B0%E7%94%B5%E5%AE%9E%E9%AA%8C/",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "实验报告：时序电路的设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 四选一数据选择器",
-        "slug": "_1-四选一数据选择器",
-        "link": "#_1-四选一数据选择器",
-        "children": [
-          {
-            "level": 3,
-            "title": "真值表：",
-            "slug": "真值表",
-            "link": "#真值表",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "外观图：",
-            "slug": "外观图",
-            "link": "#外观图",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "vhdl代码：",
-            "slug": "vhdl代码",
-            "link": "#vhdl代码",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "一些工程文件截图：",
-            "slug": "一些工程文件截图",
-            "link": "#一些工程文件截图",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "结果分析：",
-            "slug": "结果分析",
-            "link": "#结果分析",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. 数码管显示译码器",
-        "slug": "_2-数码管显示译码器",
-        "link": "#_2-数码管显示译码器",
-        "children": [
-          {
-            "level": 3,
-            "title": "真值表：",
-            "slug": "真值表-1",
-            "link": "#真值表-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "外观图:",
-            "slug": "外观图-1",
-            "link": "#外观图-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "vhdl代码：",
-            "slug": "vhdl代码-1",
-            "link": "#vhdl代码-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "一些工程文件截图：",
-            "slug": "一些工程文件截图-1",
-            "link": "#一些工程文件截图-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "结果分析：",
-            "slug": "结果分析-1",
-            "link": "#结果分析-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "3. 分频器",
-        "slug": "_3-分频器",
-        "link": "#_3-分频器",
-        "children": [
-          {
-            "level": 3,
-            "title": "外观图：",
-            "slug": "外观图-2",
-            "link": "#外观图-2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "vhdl代码:",
-            "slug": "vhdl代码-2",
-            "link": "#vhdl代码-2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "一些工程文件截图：",
-            "slug": "一些工程文件截图-2",
-            "link": "#一些工程文件截图-2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "结果分析",
-            "slug": "结果分析-2",
-            "link": "#结果分析-2",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "4. 加计数器",
-        "slug": "_4-加计数器",
-        "link": "#_4-加计数器",
-        "children": [
-          {
-            "level": 3,
-            "title": "外观图：",
-            "slug": "外观图-3",
-            "link": "#外观图-3",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "vhdl代码：",
-            "slug": "vhdl代码-3",
-            "link": "#vhdl代码-3",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "一些工程文件截图：",
-            "slug": "一些工程文件截图-3",
-            "link": "#一些工程文件截图-3",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "5. 秒计时器",
-        "slug": "_5-秒计时器",
-        "link": "#_5-秒计时器",
-        "children": [
-          {
-            "level": 3,
-            "title": "外观图：",
-            "slug": "外观图-4",
-            "link": "#外观图-4",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "vhdl代码：",
-            "slug": "vhdl代码-4",
-            "link": "#vhdl代码-4",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "一些工程文件截图",
-            "slug": "一些工程文件截图-4",
-            "link": "#一些工程文件截图-4",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "结果分析：",
-            "slug": "结果分析-3",
-            "link": "#结果分析-3",
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
             "children": []
           }
         ]
       }
     ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E6%95%B0%E7%94%B5%E5%AE%9E%E9%AA%8C/%E6%97%B6%E5%BA%8F%E7%94%B5%E8%B7%AF%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.html",
-    "pathLocale": "/zh/",
+    "path": "/en/posts/banana/2.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
-    "title": "实验报告：随机数生成及显示电路的设计与实现",
+    "title": "Banana 3",
     "headers": [
       {
         "level": 2,
-        "title": "实验任务题目",
-        "slug": "实验任务题目",
-        "link": "#实验任务题目",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "对实验任务的理解与思考",
-        "slug": "对实验任务的理解与思考",
-        "link": "#对实验任务的理解与思考",
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
         "children": [
           {
             "level": 3,
-            "title": "M序列产生伪随机数",
-            "slug": "m序列产生伪随机数",
-            "link": "#m序列产生伪随机数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "产生随机数的关键vhdl代码：",
-            "slug": "产生随机数的关键vhdl代码",
-            "link": "#产生随机数的关键vhdl代码",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "电路的模块划分及作用",
-        "slug": "电路的模块划分及作用",
-        "link": "#电路的模块划分及作用",
-        "children": [
-          {
-            "level": 3,
-            "title": "计数器(count8)",
-            "slug": "计数器-count8",
-            "link": "#计数器-count8",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "按键消抖(debouncing)",
-            "slug": "按键消抖-debouncing",
-            "link": "#按键消抖-debouncing",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "分频器(divider2000)",
-            "slug": "分频器-divider2000",
-            "link": "#分频器-divider2000",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "M序列发生器(RandomNumber)",
-            "slug": "m序列发生器-randomnumber",
-            "link": "#m序列发生器-randomnumber",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "transfer",
-            "slug": "transfer",
-            "link": "#transfer",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "显示译码(decode)",
-            "slug": "显示译码-decode",
-            "link": "#显示译码-decode",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "总体逻辑结构图（详细准确标注端口及内部信号）",
-        "slug": "总体逻辑结构图-详细准确标注端口及内部信号",
-        "link": "#总体逻辑结构图-详细准确标注端口及内部信号",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "VHDL代码截图及编译成功截图",
-        "slug": "vhdl代码截图及编译成功截图",
-        "link": "#vhdl代码截图及编译成功截图",
-        "children": [
-          {
-            "level": 3,
-            "title": "vhdl代码:",
-            "slug": "vhdl代码",
-            "link": "#vhdl代码",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "工程文件截图：",
-            "slug": "工程文件截图",
-            "link": "#工程文件截图",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "仿真波形图及分析、结论",
-        "slug": "仿真波形图及分析、结论",
-        "link": "#仿真波形图及分析、结论",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "实验中遇到的问题及解决方法",
-        "slug": "实验中遇到的问题及解决方法",
-        "link": "#实验中遇到的问题及解决方法",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.vhdl编译报错",
-            "slug": "_1-vhdl编译报错",
-            "link": "#_1-vhdl编译报错",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.下载到开发板上时数码管乱码",
-            "slug": "_2-下载到开发板上时数码管乱码",
-            "link": "#_2-下载到开发板上时数码管乱码",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.随机数显示译码是二进制数",
-            "slug": "_3-随机数显示译码是二进制数",
-            "link": "#_3-随机数显示译码是二进制数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.每次清零后的显示都一样",
-            "slug": "_4-每次清零后的显示都一样",
-            "link": "#_4-每次清零后的显示都一样",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.清零后显示的第一组随机数持续时间不是2秒",
-            "slug": "_5-清零后显示的第一组随机数持续时间不是2秒",
-            "link": "#_5-清零后显示的第一组随机数持续时间不是2秒",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "总结及感想",
-        "slug": "总结及感想",
-        "link": "#总结及感想",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E6%95%B0%E7%94%B5%E5%AE%9E%E9%AA%8C/%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90%E5%8F%8A%E6%98%BE%E7%A4%BA%E7%94%B5%E8%B7%AF%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "写在前面",
-    "headers": [
-      {
-        "level": 2,
-        "title": "概率论",
-        "slug": "概率论",
-        "link": "#概率论",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E6%A6%82%E7%8E%87%E8%AE%BA/",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E6%A6%82%E7%8E%87%E8%AE%BA/%E6%A6%82%E7%8E%87%E8%AE%BA%E6%9C%9F%E4%B8%AD%E8%AE%BA%E6%96%87.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "写在前面",
-    "headers": [
-      {
-        "level": 2,
-        "title": "模电实验",
-        "slug": "模电实验",
-        "link": "#模电实验",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E6%A8%A1%E7%94%B5%E5%AE%9E%E9%AA%8C/",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "简易晶体管图示仪的设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "设计任务要求",
-        "slug": "设计任务要求",
-        "link": "#设计任务要求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "设计思路",
-        "slug": "设计思路",
-        "link": "#设计思路",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "总体结构框图",
-        "slug": "总体结构框图",
-        "link": "#总体结构框图",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "分块电路和总体电路的设计",
-        "slug": "分块电路和总体电路的设计",
-        "link": "#分块电路和总体电路的设计",
-        "children": [
-          {
-            "level": 3,
-            "title": "方波产生电路",
-            "slug": "方波产生电路",
-            "link": "#方波产生电路",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "三角波产生电路",
-            "slug": "三角波产生电路",
-            "link": "#三角波产生电路",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "阶梯波产生电路",
-            "slug": "阶梯波产生电路",
-            "link": "#阶梯波产生电路",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "晶体管测试电路",
-            "slug": "晶体管测试电路",
-            "link": "#晶体管测试电路",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "总体电路",
-            "slug": "总体电路",
-            "link": "#总体电路",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "所实现功能说明",
-            "slug": "所实现功能说明",
-            "link": "#所实现功能说明",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Multisim绘制的原理图和仿真图",
-        "slug": "multisim绘制的原理图和仿真图",
-        "link": "#multisim绘制的原理图和仿真图",
-        "children": [
-          {
-            "level": 3,
-            "title": "方波信号",
-            "slug": "方波信号",
-            "link": "#方波信号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "阶梯波信号，",
-            "slug": "阶梯波信号",
-            "link": "#阶梯波信号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "三角波信号，≥2V",
-            "slug": "三角波信号-≥2v",
-            "link": "#三角波信号-≥2v",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "输出特性曲线",
-            "slug": "输出特性曲线",
-            "link": "#输出特性曲线",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "所用元器件及测试仪表清单",
-        "slug": "所用元器件及测试仪表清单",
-        "link": "#所用元器件及测试仪表清单",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E6%A8%A1%E7%94%B5%E5%AE%9E%E9%AA%8C/%E6%99%B6%E4%BD%93%E7%AE%A1%E5%9B%BE%E7%A4%BA%E4%BB%AA.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "写在前面",
-    "headers": [
-      {
-        "level": 2,
-        "title": "电子院小学期",
-        "slug": "电子院小学期",
-        "link": "#电子院小学期",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E7%94%B5%E5%AD%90%E9%99%A2%E5%B0%8F%E5%AD%A6%E6%9C%9F/",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "写在前面",
-    "headers": [
-      {
-        "level": 2,
-        "title": "焊接",
-        "slug": "焊接",
-        "link": "#焊接",
-        "children": [
-          {
-            "level": 3,
-            "title": "电烙铁",
-            "slug": "电烙铁",
-            "link": "#电烙铁",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "焊接的手法与技巧",
-            "slug": "焊接的手法与技巧",
-            "link": "#焊接的手法与技巧",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "认识STM32CubeMX",
-        "slug": "认识stm32cubemx",
-        "link": "#认识stm32cubemx",
-        "children": [
-          {
-            "level": 3,
-            "title": "软件介绍",
-            "slug": "软件介绍",
-            "link": "#软件介绍",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "HAL库",
-            "slug": "hal库",
-            "link": "#hal库",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "一些工程配置",
-            "slug": "一些工程配置",
-            "link": "#一些工程配置",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "PID算法",
-        "slug": "pid算法",
-        "link": "#pid算法",
-        "children": [
-          {
-            "level": 3,
-            "title": "什么是PID",
-            "slug": "什么是pid",
-            "link": "#什么是pid",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "PID参数调节的方法",
-            "slug": "pid参数调节的方法",
-            "link": "#pid参数调节的方法",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "本人在实习项目中的具体工作",
-        "slug": "本人在实习项目中的具体工作",
-        "link": "#本人在实习项目中的具体工作",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "车模控制",
-        "slug": "车模控制",
-        "link": "#车模控制",
-        "children": [
-          {
-            "level": 3,
-            "title": "验收要求",
-            "slug": "验收要求",
-            "link": "#验收要求",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "设计思路",
-            "slug": "设计思路",
-            "link": "#设计思路",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "详细实现过程",
-            "slug": "详细实现过程",
-            "link": "#详细实现过程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "一点创新",
-            "slug": "一点创新",
-            "link": "#一点创新",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "遇到的问题及解决方法",
-        "slug": "遇到的问题及解决方法",
-        "link": "#遇到的问题及解决方法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "心得体会和总结",
-        "slug": "心得体会和总结",
-        "link": "#心得体会和总结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E7%94%B5%E5%AD%90%E9%99%A2%E5%B0%8F%E5%AD%A6%E6%9C%9F/%E6%99%BA%E8%83%BD%E5%B9%B3%E8%A1%A1%E8%BD%A6.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "写在前面",
-    "headers": [
-      {
-        "level": 2,
-        "title": "工具库",
-        "slug": "工具库",
-        "link": "#工具库",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%B7%AF/",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "压控振荡器",
-    "headers": [
-      {
-        "level": 2,
-        "title": "定义",
-        "slug": "定义",
-        "link": "#定义",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "最简单的VCO",
-        "slug": "最简单的vco",
-        "link": "#最简单的vco",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "压频转换VFC(Voltage to Frequency Convertor)",
-        "slug": "压频转换vfc-voltage-to-frequency-convertor",
-        "link": "#压频转换vfc-voltage-to-frequency-convertor",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%B7%AF/%E5%8E%8B%E6%8E%A7%E6%8C%AF%E8%8D%A1%E5%99%A8.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "滤波器",
-    "headers": [
-      {
-        "level": 2,
-        "title": "截止频率与所选电容的参考对照表",
-        "slug": "截止频率与所选电容的参考对照表",
-        "link": "#截止频率与所选电容的参考对照表",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "低通滤波器",
-        "slug": "低通滤波器",
-        "link": "#低通滤波器",
-        "children": [
-          {
-            "level": 3,
-            "title": "一阶有源低通",
-            "slug": "一阶有源低通",
-            "link": "#一阶有源低通",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二阶压控电压源低通滤波器",
-            "slug": "二阶压控电压源低通滤波器",
-            "link": "#二阶压控电压源低通滤波器",
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
             "children": []
           }
         ]
       }
     ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%B7%AF/%E6%BB%A4%E6%B3%A2%E5%99%A8.html",
-    "pathLocale": "/zh/",
+    "path": "/en/posts/banana/3.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
-    "title": "积分器",
+    "title": "Banana 4",
     "headers": [
       {
         "level": 2,
-        "title": "基本积分电路",
-        "slug": "基本积分电路",
-        "link": "#基本积分电路",
-        "children": []
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
       }
     ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%B7%AF/%E7%A7%AF%E5%88%86%E5%99%A8.html",
-    "pathLocale": "/zh/",
+    "path": "/en/posts/banana/4.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
@@ -2695,8 +1160,8 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E8%8A%AF%E7%89%87/CD4046.html",
-    "pathLocale": "/zh/",
+    "path": "/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E8%8A%AF%E7%89%87/CD4046.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -2738,8 +1203,8 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E8%8A%AF%E7%89%87/DDS.html",
-    "pathLocale": "/zh/",
+    "path": "/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E8%8A%AF%E7%89%87/DDS.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -2753,15 +1218,111 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E8%8A%AF%E7%89%87/",
-    "pathLocale": "/zh/",
+    "path": "/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E8%8A%AF%E7%89%87/",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "继电器",
     "headers": [],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E8%8A%AF%E7%89%87/%E7%BB%A7%E7%94%B5%E5%99%A8.html",
-    "pathLocale": "/zh/",
+    "path": "/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E8%8A%AF%E7%89%87/%E7%BB%A7%E7%94%B5%E5%99%A8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "写在前面",
+    "headers": [
+      {
+        "level": 2,
+        "title": "工具库",
+        "slug": "工具库",
+        "link": "#工具库",
+        "children": []
+      }
+    ],
+    "path": "/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%B7%AF/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "压控振荡器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "定义",
+        "slug": "定义",
+        "link": "#定义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "最简单的VCO",
+        "slug": "最简单的vco",
+        "link": "#最简单的vco",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "压频转换VFC(Voltage to Frequency Convertor)",
+        "slug": "压频转换vfc-voltage-to-frequency-convertor",
+        "link": "#压频转换vfc-voltage-to-frequency-convertor",
+        "children": []
+      }
+    ],
+    "path": "/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%B7%AF/%E5%8E%8B%E6%8E%A7%E6%8C%AF%E8%8D%A1%E5%99%A8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "滤波器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "截止频率与所选电容的参考对照表",
+        "slug": "截止频率与所选电容的参考对照表",
+        "link": "#截止频率与所选电容的参考对照表",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "低通滤波器",
+        "slug": "低通滤波器",
+        "link": "#低通滤波器",
+        "children": [
+          {
+            "level": 3,
+            "title": "一阶有源低通",
+            "slug": "一阶有源低通",
+            "link": "#一阶有源低通",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二阶压控电压源低通滤波器",
+            "slug": "二阶压控电压源低通滤波器",
+            "link": "#二阶压控电压源低通滤波器",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%B7%AF/%E6%BB%A4%E6%B3%A2%E5%99%A8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "积分器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "基本积分电路",
+        "slug": "基本积分电路",
+        "link": "#基本积分电路",
+        "children": []
+      }
+    ],
+    "path": "/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%B7%AF/%E7%A7%AF%E5%88%86%E5%99%A8.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -2775,8 +1336,8 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E6%94%BE%E5%A4%A7%E5%99%A8/",
-    "pathLocale": "/zh/",
+    "path": "/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E6%94%BE%E5%A4%A7%E5%99%A8/",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -3039,8 +1600,1577 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/zh/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E6%94%BE%E5%A4%A7%E5%99%A8/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%94%BE%E5%A4%A7%E5%99%A8.html",
-    "pathLocale": "/zh/",
+    "path": "/%E7%94%B5%E5%AD%90%E7%94%B5%E8%B7%AF/%E6%94%BE%E5%A4%A7%E5%99%A8/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%94%BE%E5%A4%A7%E5%99%A8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "设计方案",
+    "headers": [
+      {
+        "level": 2,
+        "title": "题目",
+        "slug": "题目",
+        "link": "#题目",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "概述",
+        "slug": "概述",
+        "link": "#概述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "总体设计",
+        "slug": "总体设计",
+        "link": "#总体设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "思路",
+        "slug": "思路",
+        "link": "#思路",
+        "children": []
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/01_waveform.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "演示效果",
+    "headers": [],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/01_waveform_demo.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "设计方案",
+    "headers": [
+      {
+        "level": 2,
+        "title": "题目",
+        "slug": "题目",
+        "link": "#题目",
+        "children": [
+          {
+            "level": 3,
+            "title": "已知各音阶标称频率值： （HZ）",
+            "slug": "已知各音阶标称频率值-hz",
+            "link": "#已知各音阶标称频率值-hz",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "完成一个程序，实现如下功能",
+            "slug": "完成一个程序-实现如下功能",
+            "link": "#完成一个程序-实现如下功能",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "概述",
+        "slug": "概述",
+        "link": "#概述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "总体设计",
+        "slug": "总体设计",
+        "link": "#总体设计",
+        "children": [
+          {
+            "level": 3,
+            "title": "思路",
+            "slug": "思路",
+            "link": "#思路",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "任务（1）",
+            "slug": "任务-1",
+            "link": "#任务-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "任务（2）",
+            "slug": "任务-2",
+            "link": "#任务-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "改进空间:",
+            "slug": "改进空间",
+            "link": "#改进空间",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/02_piano.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "演示效果",
+    "headers": [],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/02_piano_demo.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "设计方案",
+    "headers": [
+      {
+        "level": 2,
+        "title": "定义",
+        "slug": "定义",
+        "link": "#定义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "思路",
+        "slug": "思路",
+        "link": "#思路",
+        "children": []
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/03_sample.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "演示效果",
+    "headers": [],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/03_sample_demo.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "设计方案",
+    "headers": [
+      {
+        "level": 2,
+        "title": "题目",
+        "slug": "题目",
+        "link": "#题目",
+        "children": []
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/04_prize.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "演示效果",
+    "headers": [],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/04_prize_demo.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "象棋的设计(1):设计图形界面",
+    "headers": [
+      {
+        "level": 2,
+        "title": "题目",
+        "slug": "题目",
+        "link": "#题目",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "棋盘表示",
+        "slug": "棋盘表示",
+        "link": "#棋盘表示",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "棋子表示",
+        "slug": "棋子表示",
+        "link": "#棋子表示",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "字符串表示局面",
+        "slug": "字符串表示局面",
+        "link": "#字符串表示局面",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "棋盘相关的html、css",
+        "slug": "棋盘相关的html、css",
+        "link": "#棋盘相关的html、css",
+        "children": []
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/05_chess1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "象棋的设计(2):棋子的走法",
+    "headers": [
+      {
+        "level": 2,
+        "title": "走法表示",
+        "slug": "走法表示",
+        "link": "#走法表示",
+        "children": [
+          {
+            "level": 3,
+            "title": "将",
+            "slug": "将",
+            "link": "#将",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "士",
+            "slug": "士",
+            "link": "#士",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "象",
+            "slug": "象",
+            "link": "#象",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "马",
+            "slug": "马",
+            "link": "#马",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "车、炮",
+            "slug": "车、炮",
+            "link": "#车、炮",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "卒（兵）的走法",
+            "slug": "卒-兵-的走法",
+            "link": "#卒-兵-的走法",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/05_chess2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "象棋的设计(3):电脑自动走棋",
+    "headers": [
+      {
+        "level": 2,
+        "title": "走法生成",
+        "slug": "走法生成",
+        "link": "#走法生成",
+        "children": [
+          {
+            "level": 3,
+            "title": "将（帅）",
+            "slug": "将-帅",
+            "link": "#将-帅",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "仕",
+            "slug": "仕",
+            "link": "#仕",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "象",
+            "slug": "象",
+            "link": "#象",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "马",
+            "slug": "马",
+            "link": "#马",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "车",
+            "slug": "车",
+            "link": "#车",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "炮",
+            "slug": "炮",
+            "link": "#炮",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "兵",
+            "slug": "兵",
+            "link": "#兵",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/05_chessx.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "象棋的设计(4):搜索算法",
+    "headers": [
+      {
+        "level": 2,
+        "title": "局面评估",
+        "slug": "局面评估",
+        "link": "#局面评估",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "搜索算法",
+        "slug": "搜索算法",
+        "link": "#搜索算法",
+        "children": []
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/05_chessx2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "象棋效果演示",
+    "headers": [],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/05_chess_demo.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "写在前面",
+    "headers": [
+      {
+        "level": 2,
+        "title": "此专栏为博主的专业课设实验，计划将全部实验集成到个人博客中，非常的银杏😋",
+        "slug": "此专栏为博主的专业课设实验-计划将全部实验集成到个人博客中-非常的银杏",
+        "link": "#此专栏为博主的专业课设实验-计划将全部实验集成到个人博客中-非常的银杏",
+        "children": []
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "实验报告：专业实验",
+    "headers": [
+      {
+        "level": 2,
+        "title": "数字波形生成",
+        "slug": "数字波形生成",
+        "link": "#数字波形生成",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.概述",
+            "slug": "_1-概述",
+            "link": "#_1-概述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.总体设计",
+            "slug": "_2-总体设计",
+            "link": "#_2-总体设计",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.详细设计及实现",
+            "slug": "_3-详细设计及实现",
+            "link": "#_3-详细设计及实现",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.结论",
+            "slug": "_4-结论",
+            "link": "#_4-结论",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.结束语",
+            "slug": "_5-结束语",
+            "link": "#_5-结束语",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.程序清单",
+            "slug": "_6-程序清单",
+            "link": "#_6-程序清单",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "电子钢琴",
+        "slug": "电子钢琴",
+        "link": "#电子钢琴",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.概述",
+            "slug": "_1-概述-1",
+            "link": "#_1-概述-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.总体设计",
+            "slug": "_2-总体设计-1",
+            "link": "#_2-总体设计-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.详细设计及实现",
+            "slug": "_3-详细设计及实现-1",
+            "link": "#_3-详细设计及实现-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.结论",
+            "slug": "_4-结论-1",
+            "link": "#_4-结论-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.结束语",
+            "slug": "_5-结束语-1",
+            "link": "#_5-结束语-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.程序清单",
+            "slug": "_6-程序清单-1",
+            "link": "#_6-程序清单-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "采样定理",
+        "slug": "采样定理",
+        "link": "#采样定理",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.概述",
+            "slug": "_1-概述-2",
+            "link": "#_1-概述-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.总体设计",
+            "slug": "_2-总体设计-2",
+            "link": "#_2-总体设计-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.详细设计及实现",
+            "slug": "_3-详细设计及实现-2",
+            "link": "#_3-详细设计及实现-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.结论",
+            "slug": "_4-结论-2",
+            "link": "#_4-结论-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.结束语",
+            "slug": "_5-结束语-2",
+            "link": "#_5-结束语-2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "兑奖算法",
+        "slug": "兑奖算法",
+        "link": "#兑奖算法",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.概述",
+            "slug": "_1-概述-3",
+            "link": "#_1-概述-3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.总体设计",
+            "slug": "_2-总体设计-3",
+            "link": "#_2-总体设计-3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.详细设计及实现",
+            "slug": "_3-详细设计及实现-3",
+            "link": "#_3-详细设计及实现-3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.结论",
+            "slug": "_4-结论-3",
+            "link": "#_4-结论-3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.结束语",
+            "slug": "_5-结束语-3",
+            "link": "#_5-结束语-3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.程序清单",
+            "slug": "_6-程序清单-2",
+            "link": "#_6-程序清单-2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "中国象棋",
+        "slug": "中国象棋",
+        "link": "#中国象棋",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.概述",
+            "slug": "_1-概述-4",
+            "link": "#_1-概述-4",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.总体设计",
+            "slug": "_2-总体设计-4",
+            "link": "#_2-总体设计-4",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.详细设计及实现",
+            "slug": "_3-详细设计及实现-4",
+            "link": "#_3-详细设计及实现-4",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.结论",
+            "slug": "_4-结论-4",
+            "link": "#_4-结论-4",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.结束语",
+            "slug": "_5-结束语-4",
+            "link": "#_5-结束语-4",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.程序清单",
+            "slug": "_6-程序清单-3",
+            "link": "#_6-程序清单-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E4%B8%93%E4%B8%9A%E5%AE%9E%E9%AA%8C/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "写在前面",
+    "headers": [
+      {
+        "level": 2,
+        "title": "单片机实验",
+        "slug": "单片机实验",
+        "link": "#单片机实验",
+        "children": []
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E5%8D%95%E7%89%87%E6%9C%BA%E5%AE%9E%E9%AA%8C/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "电子时钟",
+    "headers": [
+      {
+        "level": 2,
+        "title": "前言",
+        "slug": "前言",
+        "link": "#前言",
+        "children": [
+          {
+            "level": 3,
+            "title": "背景",
+            "slug": "背景",
+            "link": "#背景",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "定义",
+            "slug": "定义",
+            "link": "#定义",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "需求分析",
+            "slug": "需求分析",
+            "link": "#需求分析",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总结",
+            "slug": "总结",
+            "link": "#总结",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "详细设计",
+        "slug": "详细设计",
+        "link": "#详细设计",
+        "children": [
+          {
+            "level": 3,
+            "title": "功能分析",
+            "slug": "功能分析",
+            "link": "#功能分析",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "工作原理",
+            "slug": "工作原理",
+            "link": "#工作原理",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "效果演示",
+        "slug": "效果演示",
+        "link": "#效果演示",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "main.c：",
+        "slug": "main-c",
+        "link": "#main-c",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "seg7.c:",
+        "slug": "seg7-c",
+        "link": "#seg7-c",
+        "children": []
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E5%8D%95%E7%89%87%E6%9C%BA%E5%AE%9E%E9%AA%8C/%E7%94%B5%E5%AD%90%E6%97%B6%E9%92%9F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "写在前面",
+    "headers": [
+      {
+        "level": 2,
+        "title": "数电实验",
+        "slug": "数电实验",
+        "link": "#数电实验",
+        "children": []
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E6%95%B0%E7%94%B5%E5%AE%9E%E9%AA%8C/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "实验报告：时序电路的设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 四选一数据选择器",
+        "slug": "_1-四选一数据选择器",
+        "link": "#_1-四选一数据选择器",
+        "children": [
+          {
+            "level": 3,
+            "title": "真值表：",
+            "slug": "真值表",
+            "link": "#真值表",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "外观图：",
+            "slug": "外观图",
+            "link": "#外观图",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "vhdl代码：",
+            "slug": "vhdl代码",
+            "link": "#vhdl代码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "一些工程文件截图：",
+            "slug": "一些工程文件截图",
+            "link": "#一些工程文件截图",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "结果分析：",
+            "slug": "结果分析",
+            "link": "#结果分析",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. 数码管显示译码器",
+        "slug": "_2-数码管显示译码器",
+        "link": "#_2-数码管显示译码器",
+        "children": [
+          {
+            "level": 3,
+            "title": "真值表：",
+            "slug": "真值表-1",
+            "link": "#真值表-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "外观图:",
+            "slug": "外观图-1",
+            "link": "#外观图-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "vhdl代码：",
+            "slug": "vhdl代码-1",
+            "link": "#vhdl代码-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "一些工程文件截图：",
+            "slug": "一些工程文件截图-1",
+            "link": "#一些工程文件截图-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "结果分析：",
+            "slug": "结果分析-1",
+            "link": "#结果分析-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. 分频器",
+        "slug": "_3-分频器",
+        "link": "#_3-分频器",
+        "children": [
+          {
+            "level": 3,
+            "title": "外观图：",
+            "slug": "外观图-2",
+            "link": "#外观图-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "vhdl代码:",
+            "slug": "vhdl代码-2",
+            "link": "#vhdl代码-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "一些工程文件截图：",
+            "slug": "一些工程文件截图-2",
+            "link": "#一些工程文件截图-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "结果分析",
+            "slug": "结果分析-2",
+            "link": "#结果分析-2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. 加计数器",
+        "slug": "_4-加计数器",
+        "link": "#_4-加计数器",
+        "children": [
+          {
+            "level": 3,
+            "title": "外观图：",
+            "slug": "外观图-3",
+            "link": "#外观图-3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "vhdl代码：",
+            "slug": "vhdl代码-3",
+            "link": "#vhdl代码-3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "一些工程文件截图：",
+            "slug": "一些工程文件截图-3",
+            "link": "#一些工程文件截图-3",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "5. 秒计时器",
+        "slug": "_5-秒计时器",
+        "link": "#_5-秒计时器",
+        "children": [
+          {
+            "level": 3,
+            "title": "外观图：",
+            "slug": "外观图-4",
+            "link": "#外观图-4",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "vhdl代码：",
+            "slug": "vhdl代码-4",
+            "link": "#vhdl代码-4",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "一些工程文件截图",
+            "slug": "一些工程文件截图-4",
+            "link": "#一些工程文件截图-4",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "结果分析：",
+            "slug": "结果分析-3",
+            "link": "#结果分析-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E6%95%B0%E7%94%B5%E5%AE%9E%E9%AA%8C/%E6%97%B6%E5%BA%8F%E7%94%B5%E8%B7%AF%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "实验报告：随机数生成及显示电路的设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "实验任务题目",
+        "slug": "实验任务题目",
+        "link": "#实验任务题目",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "对实验任务的理解与思考",
+        "slug": "对实验任务的理解与思考",
+        "link": "#对实验任务的理解与思考",
+        "children": [
+          {
+            "level": 3,
+            "title": "M序列产生伪随机数",
+            "slug": "m序列产生伪随机数",
+            "link": "#m序列产生伪随机数",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "产生随机数的关键vhdl代码：",
+            "slug": "产生随机数的关键vhdl代码",
+            "link": "#产生随机数的关键vhdl代码",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "电路的模块划分及作用",
+        "slug": "电路的模块划分及作用",
+        "link": "#电路的模块划分及作用",
+        "children": [
+          {
+            "level": 3,
+            "title": "计数器(count8)",
+            "slug": "计数器-count8",
+            "link": "#计数器-count8",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "按键消抖(debouncing)",
+            "slug": "按键消抖-debouncing",
+            "link": "#按键消抖-debouncing",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "分频器(divider2000)",
+            "slug": "分频器-divider2000",
+            "link": "#分频器-divider2000",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "M序列发生器(RandomNumber)",
+            "slug": "m序列发生器-randomnumber",
+            "link": "#m序列发生器-randomnumber",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "transfer",
+            "slug": "transfer",
+            "link": "#transfer",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "显示译码(decode)",
+            "slug": "显示译码-decode",
+            "link": "#显示译码-decode",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总体逻辑结构图（详细准确标注端口及内部信号）",
+        "slug": "总体逻辑结构图-详细准确标注端口及内部信号",
+        "link": "#总体逻辑结构图-详细准确标注端口及内部信号",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "VHDL代码截图及编译成功截图",
+        "slug": "vhdl代码截图及编译成功截图",
+        "link": "#vhdl代码截图及编译成功截图",
+        "children": [
+          {
+            "level": 3,
+            "title": "vhdl代码:",
+            "slug": "vhdl代码",
+            "link": "#vhdl代码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "工程文件截图：",
+            "slug": "工程文件截图",
+            "link": "#工程文件截图",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "仿真波形图及分析、结论",
+        "slug": "仿真波形图及分析、结论",
+        "link": "#仿真波形图及分析、结论",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "实验中遇到的问题及解决方法",
+        "slug": "实验中遇到的问题及解决方法",
+        "link": "#实验中遇到的问题及解决方法",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.vhdl编译报错",
+            "slug": "_1-vhdl编译报错",
+            "link": "#_1-vhdl编译报错",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.下载到开发板上时数码管乱码",
+            "slug": "_2-下载到开发板上时数码管乱码",
+            "link": "#_2-下载到开发板上时数码管乱码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.随机数显示译码是二进制数",
+            "slug": "_3-随机数显示译码是二进制数",
+            "link": "#_3-随机数显示译码是二进制数",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.每次清零后的显示都一样",
+            "slug": "_4-每次清零后的显示都一样",
+            "link": "#_4-每次清零后的显示都一样",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.清零后显示的第一组随机数持续时间不是2秒",
+            "slug": "_5-清零后显示的第一组随机数持续时间不是2秒",
+            "link": "#_5-清零后显示的第一组随机数持续时间不是2秒",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "总结及感想",
+        "slug": "总结及感想",
+        "link": "#总结及感想",
+        "children": []
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E6%95%B0%E7%94%B5%E5%AE%9E%E9%AA%8C/%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90%E5%8F%8A%E6%98%BE%E7%A4%BA%E7%94%B5%E8%B7%AF%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "写在前面",
+    "headers": [
+      {
+        "level": 2,
+        "title": "概率论",
+        "slug": "概率论",
+        "link": "#概率论",
+        "children": []
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E6%A6%82%E7%8E%87%E8%AE%BA/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "趣味概率梳理",
+    "headers": [
+      {
+        "level": 2,
+        "title": "概率的历史",
+        "slug": "概率的历史",
+        "link": "#概率的历史",
+        "children": [
+          {
+            "level": 3,
+            "title": "起源",
+            "slug": "起源",
+            "link": "#起源",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "18世纪",
+            "slug": "_18世纪",
+            "link": "#_18世纪",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "19世纪",
+            "slug": "_19世纪",
+            "link": "#_19世纪",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "20 世纪",
+            "slug": "_20-世纪",
+            "link": "#_20-世纪",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "概率的经典问题",
+        "slug": "概率的经典问题",
+        "link": "#概率的经典问题",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.约会问题",
+            "slug": "_1-约会问题",
+            "link": "#_1-约会问题",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 投针问题",
+            "slug": "_2-投针问题",
+            "link": "#_2-投针问题",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 生日问题",
+            "slug": "_3-生日问题",
+            "link": "#_3-生日问题",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. 配对问题",
+            "slug": "_4-配对问题",
+            "link": "#_4-配对问题",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5. 钓鱼问题",
+            "slug": "_5-钓鱼问题",
+            "link": "#_5-钓鱼问题",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "概率的悖论",
+        "slug": "概率的悖论",
+        "link": "#概率的悖论",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 生日悖论",
+            "slug": "_1-生日悖论",
+            "link": "#_1-生日悖论",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 蒙提霍尔悖论",
+            "slug": "_2-蒙提霍尔悖论",
+            "link": "#_2-蒙提霍尔悖论",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. 贝特朗箱子悖论",
+            "slug": "_3-贝特朗箱子悖论",
+            "link": "#_3-贝特朗箱子悖论",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. 假阳性悖论",
+            "slug": "_4-假阳性悖论",
+            "link": "#_4-假阳性悖论",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "概率的一题多解",
+        "slug": "概率的一题多解",
+        "link": "#概率的一题多解",
+        "children": []
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E6%A6%82%E7%8E%87%E8%AE%BA/%E6%A6%82%E7%8E%87%E8%AE%BA%E6%9C%9F%E4%B8%AD%E8%AE%BA%E6%96%87.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "写在前面",
+    "headers": [
+      {
+        "level": 2,
+        "title": "模电实验",
+        "slug": "模电实验",
+        "link": "#模电实验",
+        "children": []
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E6%A8%A1%E7%94%B5%E5%AE%9E%E9%AA%8C/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "简易晶体管图示仪的设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "设计任务要求",
+        "slug": "设计任务要求",
+        "link": "#设计任务要求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "设计思路",
+        "slug": "设计思路",
+        "link": "#设计思路",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "总体结构框图",
+        "slug": "总体结构框图",
+        "link": "#总体结构框图",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "分块电路和总体电路的设计",
+        "slug": "分块电路和总体电路的设计",
+        "link": "#分块电路和总体电路的设计",
+        "children": [
+          {
+            "level": 3,
+            "title": "方波产生电路",
+            "slug": "方波产生电路",
+            "link": "#方波产生电路",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "三角波产生电路",
+            "slug": "三角波产生电路",
+            "link": "#三角波产生电路",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "阶梯波产生电路",
+            "slug": "阶梯波产生电路",
+            "link": "#阶梯波产生电路",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "晶体管测试电路",
+            "slug": "晶体管测试电路",
+            "link": "#晶体管测试电路",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "总体电路",
+            "slug": "总体电路",
+            "link": "#总体电路",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "所实现功能说明",
+            "slug": "所实现功能说明",
+            "link": "#所实现功能说明",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Multisim绘制的原理图和仿真图",
+        "slug": "multisim绘制的原理图和仿真图",
+        "link": "#multisim绘制的原理图和仿真图",
+        "children": [
+          {
+            "level": 3,
+            "title": "方波信号",
+            "slug": "方波信号",
+            "link": "#方波信号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "阶梯波信号，",
+            "slug": "阶梯波信号",
+            "link": "#阶梯波信号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "三角波信号，≥2V",
+            "slug": "三角波信号-≥2v",
+            "link": "#三角波信号-≥2v",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "输出特性曲线",
+            "slug": "输出特性曲线",
+            "link": "#输出特性曲线",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "所用元器件及测试仪表清单",
+        "slug": "所用元器件及测试仪表清单",
+        "link": "#所用元器件及测试仪表清单",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E6%A8%A1%E7%94%B5%E5%AE%9E%E9%AA%8C/%E6%99%B6%E4%BD%93%E7%AE%A1%E5%9B%BE%E7%A4%BA%E4%BB%AA.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "写在前面",
+    "headers": [
+      {
+        "level": 2,
+        "title": "电子院小学期",
+        "slug": "电子院小学期",
+        "link": "#电子院小学期",
+        "children": []
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E7%94%B5%E5%AD%90%E9%99%A2%E5%B0%8F%E5%AD%A6%E6%9C%9F/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "写在前面",
+    "headers": [
+      {
+        "level": 2,
+        "title": "焊接",
+        "slug": "焊接",
+        "link": "#焊接",
+        "children": [
+          {
+            "level": 3,
+            "title": "电烙铁",
+            "slug": "电烙铁",
+            "link": "#电烙铁",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "焊接的手法与技巧",
+            "slug": "焊接的手法与技巧",
+            "link": "#焊接的手法与技巧",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "认识STM32CubeMX",
+        "slug": "认识stm32cubemx",
+        "link": "#认识stm32cubemx",
+        "children": [
+          {
+            "level": 3,
+            "title": "软件介绍",
+            "slug": "软件介绍",
+            "link": "#软件介绍",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HAL库",
+            "slug": "hal库",
+            "link": "#hal库",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "一些工程配置",
+            "slug": "一些工程配置",
+            "link": "#一些工程配置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "PID算法",
+        "slug": "pid算法",
+        "link": "#pid算法",
+        "children": [
+          {
+            "level": 3,
+            "title": "什么是PID",
+            "slug": "什么是pid",
+            "link": "#什么是pid",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "PID参数调节的方法",
+            "slug": "pid参数调节的方法",
+            "link": "#pid参数调节的方法",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "本人在实习项目中的具体工作",
+        "slug": "本人在实习项目中的具体工作",
+        "link": "#本人在实习项目中的具体工作",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "车模控制",
+        "slug": "车模控制",
+        "link": "#车模控制",
+        "children": [
+          {
+            "level": 3,
+            "title": "验收要求",
+            "slug": "验收要求",
+            "link": "#验收要求",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "设计思路",
+            "slug": "设计思路",
+            "link": "#设计思路",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "详细实现过程",
+            "slug": "详细实现过程",
+            "link": "#详细实现过程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "一点创新",
+            "slug": "一点创新",
+            "link": "#一点创新",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "遇到的问题及解决方法",
+        "slug": "遇到的问题及解决方法",
+        "link": "#遇到的问题及解决方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "心得体会和总结",
+        "slug": "心得体会和总结",
+        "link": "#心得体会和总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/%E7%94%B5%E5%AD%90%E9%99%A2%E5%B0%8F%E5%AD%A6%E6%9C%9F/%E6%99%BA%E8%83%BD%E5%B9%B3%E8%A1%A1%E8%BD%A6.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -3051,395 +3181,408 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Category",
+    "title": "分类",
     "headers": [],
     "path": "/category/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Tag",
+    "title": "标签",
     "headers": [],
     "path": "/tag/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Articles",
+    "title": "文章",
     "headers": [],
     "path": "/article/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Encrypted",
+    "title": "加密",
     "headers": [],
     "path": "/encrypted/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Slides",
+    "title": "幻灯片",
     "headers": [],
     "path": "/slide/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Star",
+    "title": "收藏",
     "headers": [],
     "path": "/star/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Timeline",
+    "title": "时间轴",
     "headers": [],
     "path": "/timeline/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Guide Category",
-    "headers": [],
-    "path": "/category/guide/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "disable Tag",
-    "headers": [],
-    "path": "/tag/disable/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "文章",
-    "headers": [],
-    "path": "/zh/article/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "加密",
-    "headers": [],
-    "path": "/zh/encrypted/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "幻灯片",
-    "headers": [],
-    "path": "/zh/slide/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "收藏",
-    "headers": [],
-    "path": "/zh/star/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "时间轴",
-    "headers": [],
-    "path": "/zh/timeline/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Cherry Category",
-    "headers": [],
-    "path": "/category/cherry/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "encryption Tag",
-    "headers": [],
-    "path": "/tag/encryption/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Dragonfruit Category",
-    "headers": [],
-    "path": "/category/dragonfruit/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Markdown Tag",
-    "headers": [],
-    "path": "/tag/markdown/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Fruit Category",
-    "headers": [],
-    "path": "/category/fruit/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Page config Tag",
-    "headers": [],
-    "path": "/tag/page-config/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Strawberry Category",
-    "headers": [],
-    "path": "/category/strawberry/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Guide Tag",
-    "headers": [],
-    "path": "/tag/guide/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Vegetable Category",
-    "headers": [],
-    "path": "/category/vegetable/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "red Tag",
-    "headers": [],
-    "path": "/tag/red/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Banana Category",
-    "headers": [],
-    "path": "/category/banana/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "small Tag",
-    "headers": [],
-    "path": "/tag/small/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Apple Category",
-    "headers": [],
-    "path": "/category/apple/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "round Tag",
-    "headers": [],
-    "path": "/tag/round/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "分类",
-    "headers": [],
-    "path": "/zh/category/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "big Tag",
-    "headers": [],
-    "path": "/tag/big/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "使用指南 分类",
     "headers": [],
-    "path": "/zh/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "yellow Tag",
-    "headers": [],
-    "path": "/tag/yellow/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "樱桃 分类",
-    "headers": [],
-    "path": "/zh/category/%E6%A8%B1%E6%A1%83/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "curly Tag",
-    "headers": [],
-    "path": "/tag/curly/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "火龙果 分类",
-    "headers": [],
-    "path": "/zh/category/%E7%81%AB%E9%BE%99%E6%9E%9C/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "long Tag",
-    "headers": [],
-    "path": "/tag/long/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "水果 分类",
-    "headers": [],
-    "path": "/zh/category/%E6%B0%B4%E6%9E%9C/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "标签",
-    "headers": [],
-    "path": "/zh/tag/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "草莓 分类",
-    "headers": [],
-    "path": "/zh/category/%E8%8D%89%E8%8E%93/",
+    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "禁用 标签",
     "headers": [],
-    "path": "/zh/tag/%E7%A6%81%E7%94%A8/",
+    "path": "/tag/%E7%A6%81%E7%94%A8/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "蔬菜 分类",
+    "title": "Articles",
     "headers": [],
-    "path": "/zh/category/%E8%94%AC%E8%8F%9C/",
+    "path": "/en/article/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Encrypted",
+    "headers": [],
+    "path": "/en/encrypted/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Slides",
+    "headers": [],
+    "path": "/en/slide/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Star",
+    "headers": [],
+    "path": "/en/star/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Timeline",
+    "headers": [],
+    "path": "/en/timeline/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "樱桃 分类",
+    "headers": [],
+    "path": "/category/%E6%A8%B1%E6%A1%83/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "文章加密 标签",
     "headers": [],
-    "path": "/zh/tag/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/",
+    "path": "/tag/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "苹果 分类",
+    "title": "火龙果 分类",
     "headers": [],
-    "path": "/zh/category/%E8%8B%B9%E6%9E%9C/",
+    "path": "/category/%E7%81%AB%E9%BE%99%E6%9E%9C/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "Markdown 标签",
     "headers": [],
-    "path": "/zh/tag/markdown/",
+    "path": "/tag/markdown/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "香蕉 分类",
+    "title": "水果 分类",
     "headers": [],
-    "path": "/zh/category/%E9%A6%99%E8%95%89/",
+    "path": "/category/%E6%B0%B4%E6%9E%9C/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "页面配置 标签",
     "headers": [],
-    "path": "/zh/tag/%E9%A1%B5%E9%9D%A2%E9%85%8D%E7%BD%AE/",
+    "path": "/tag/%E9%A1%B5%E9%9D%A2%E9%85%8D%E7%BD%AE/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "草莓 分类",
+    "headers": [],
+    "path": "/category/%E8%8D%89%E8%8E%93/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "使用指南 标签",
     "headers": [],
-    "path": "/zh/tag/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "path": "/tag/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "蔬菜 分类",
+    "headers": [],
+    "path": "/category/%E8%94%AC%E8%8F%9C/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "红 标签",
     "headers": [],
-    "path": "/zh/tag/%E7%BA%A2/",
+    "path": "/tag/%E7%BA%A2/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "苹果 分类",
+    "headers": [],
+    "path": "/category/%E8%8B%B9%E6%9E%9C/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "小 标签",
     "headers": [],
-    "path": "/zh/tag/%E5%B0%8F/",
+    "path": "/tag/%E5%B0%8F/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "香蕉 分类",
+    "headers": [],
+    "path": "/category/%E9%A6%99%E8%95%89/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "圆 标签",
     "headers": [],
-    "path": "/zh/tag/%E5%9C%86/",
+    "path": "/tag/%E5%9C%86/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Category",
+    "headers": [],
+    "path": "/en/category/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "大 标签",
     "headers": [],
-    "path": "/zh/tag/%E5%A4%A7/",
+    "path": "/tag/%E5%A4%A7/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Guide Category",
+    "headers": [],
+    "path": "/en/category/guide/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "黄 标签",
     "headers": [],
-    "path": "/zh/tag/%E9%BB%84/",
+    "path": "/tag/%E9%BB%84/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Cherry Category",
+    "headers": [],
+    "path": "/en/category/cherry/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "弯曲的 标签",
     "headers": [],
-    "path": "/zh/tag/%E5%BC%AF%E6%9B%B2%E7%9A%84/",
+    "path": "/tag/%E5%BC%AF%E6%9B%B2%E7%9A%84/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Dragonfruit Category",
+    "headers": [],
+    "path": "/en/category/dragonfruit/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "长 标签",
     "headers": [],
-    "path": "/zh/tag/%E9%95%BF/",
+    "path": "/tag/%E9%95%BF/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "专业课 标签",
+    "title": "Fruit Category",
     "headers": [],
-    "path": "/zh/tag/%E4%B8%93%E4%B8%9A%E8%AF%BE/",
+    "path": "/en/category/fruit/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "写在前面 标签",
     "headers": [],
-    "path": "/zh/tag/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/",
+    "path": "/tag/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Strawberry Category",
+    "headers": [],
+    "path": "/en/category/strawberry/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "专业课 标签",
+    "headers": [],
+    "path": "/tag/%E4%B8%93%E4%B8%9A%E8%AF%BE/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vegetable Category",
+    "headers": [],
+    "path": "/en/category/vegetable/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tag",
+    "headers": [],
+    "path": "/en/tag/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Apple Category",
+    "headers": [],
+    "path": "/en/category/apple/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "disable Tag",
+    "headers": [],
+    "path": "/en/tag/disable/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Banana Category",
+    "headers": [],
+    "path": "/en/category/banana/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "encryption Tag",
+    "headers": [],
+    "path": "/en/tag/encryption/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Markdown Tag",
+    "headers": [],
+    "path": "/en/tag/markdown/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Page config Tag",
+    "headers": [],
+    "path": "/en/tag/page-config/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Guide Tag",
+    "headers": [],
+    "path": "/en/tag/guide/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "red Tag",
+    "headers": [],
+    "path": "/en/tag/red/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "small Tag",
+    "headers": [],
+    "path": "/en/tag/small/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "round Tag",
+    "headers": [],
+    "path": "/en/tag/round/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "big Tag",
+    "headers": [],
+    "path": "/en/tag/big/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "yellow Tag",
+    "headers": [],
+    "path": "/en/tag/yellow/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "curly Tag",
+    "headers": [],
+    "path": "/en/tag/curly/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "long Tag",
+    "headers": [],
+    "path": "/en/tag/long/",
     "pathLocale": "/",
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

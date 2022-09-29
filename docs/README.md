@@ -2,47 +2,17 @@
 home: true
 layout: Blog
 icon: home
-title: Blog Home
+title: 主页
 heroImage: /logo.svg
-heroText: the name of your blog
-tagline: You can put your slogan here
+heroText: GaoSen
 heroFullScreen: true
+tagline: 海压竹枝低复举，风吹山角晦还明。
 projects:
-  - icon: project
-    name: project name
-    desc: project detailed description
-    link: https://your.project.link
+  - icon: github
+    name: getchart
+    desc: 根据输入的横纵坐标，生成曲线图
+    link: https://github.com/gaosen1/getcharts
 
-  - icon: link
-    name: link name
-    desc: link detailed description
-    link: https://link.address
-
-  - icon: book
-    name: book name
-    desc: Detailed description of the book
-    link: https://link.to.your.book
-
-  - icon: article
-    name: article name
-    desc: Detailed description of the article
-    link: https://link.to.your.article
-
-  - icon: friend
-    name: friend name
-    desc: Detailed description of friend
-    link: https://link.to.your.friend
-
-  - icon: /logo.svg
-    name: custom item
-    desc: Detailed description of this custom item
-    link: https://link.to.your.friend
-
-footer: customize your footer text
+footer: false
 ---
 
-This is a blog home page demo.
-
-To use this layout, you should set both `layout: Blog` and `home: true` in the page front matter.
-
-For related configuration docs, please see [blog homepage](https://vuepress-theme-hope.github.io/v2/guide/blog/home/).

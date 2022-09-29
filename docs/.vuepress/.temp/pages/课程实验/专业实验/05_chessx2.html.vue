@@ -31,7 +31,7 @@
 </tbody>
 </table>
 <div class="custom-container tip">
-<p class="custom-container-title">Tips</p>
+<p class="custom-container-title">提示</p>
 <p>但是棋子价值是跟位置有关系的，比如兵在过河前价值很小，过河后价值大涨。在我的程序中，就不考虑这个了。</p>
 </div>
 <h2 id="搜索算法" tabindex="-1"><a class="header-anchor" href="#搜索算法" aria-hidden="true">#</a> 搜索算法</h2>

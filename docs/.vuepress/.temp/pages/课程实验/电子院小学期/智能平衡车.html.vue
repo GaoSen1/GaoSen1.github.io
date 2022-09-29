@@ -1,5 +1,4 @@
-<template><div><h1 id="预备知识篇" tabindex="-1"><a class="header-anchor" href="#预备知识篇" aria-hidden="true">#</a> 预备知识篇</h1>
-<p>[TOC]</p>
+<template><div><p>[TOC]</p>
 <h2 id="焊接" tabindex="-1"><a class="header-anchor" href="#焊接" aria-hidden="true">#</a> 焊接</h2>
 <h3 id="电烙铁" tabindex="-1"><a class="header-anchor" href="#电烙铁" aria-hidden="true">#</a> 电烙铁</h3>
 <p>电烙铁是手工焊接的主要工具，在焊接过程中合理选择正确使用适当的电烙铁，是确保焊接质量的基础.</p>
@@ -43,24 +42,24 @@
 <p>STM32CubeMX 是 ST 意法半导体近几年来大力推荐的STM32 芯片图形化配置工具，目的就是为了方便开发者， 允许用户使用图形化向导生成C 初始化代码，可以大大减轻开发工作，时间和费用，提高开发效率.STM32CubeMX几乎覆盖了STM32 全系列芯片.在CubeMX上，通过傻瓜化的操作便能实现相关配置，最终能够生成C语言代码，支持多种工具链，比如MDK、IAR For ARM、TrueStudio等 省去了我们配置各种外设的时间，大大的节省了时间.</p>
 <h3 id="hal库" tabindex="-1"><a class="header-anchor" href="#hal库" aria-hidden="true">#</a> HAL库</h3>
 <p>STM32 HAL固件库是Hardware Abstraction Layer的缩写，中文名称是：硬件抽象层.HAL库是ST公司为STM32的MCU最新推出的抽象层嵌入式软件，为更方便的实现跨STM32产品的最大可移植性.HAL库可以在CubeMX中在线安装：打开安装好的 STM32CubeMX 软件 点上面的<code>Help -&gt; Manage embedded software packages </code></p>
-<img src="智能平衡车.assets/image-20220904105335642.png" alt="image-20220904105335642" style="zoom:50%;" />
+<img src="@source/课程实验/电子院小学期/智能平衡车.assets/image-20220904105335642.png" alt="image-20220904105335642" style="zoom:50%;" />
 <p>会跳出来一个选择型号界面  勾选上你要安装的HAL库， 点击<code>Install</code> 直到安装成功.</p>
-<img src="智能平衡车.assets/image-20220904105505660.png" alt="image-20220904105505660" style="zoom:50%;" />
+<img src="@source/课程实验/电子院小学期/智能平衡车.assets/image-20220904105505660.png" alt="image-20220904105505660" style="zoom:50%;" />
 <h3 id="一些工程配置" tabindex="-1"><a class="header-anchor" href="#一些工程配置" aria-hidden="true">#</a> 一些工程配置</h3>
 <ul>
 <li>
 <p><strong>配置程序烧写：</strong></p>
-<img src="智能平衡车.assets/image-20220904110003147.png" alt="image-20220904110003147" style="zoom:50%;" />
+<img src="@source/课程实验/电子院小学期/智能平衡车.assets/image-20220904110003147.png" alt="image-20220904110003147" style="zoom:50%;" />
 <p>选择SW协议.</p>
 </li>
 <li>
 <p><strong>配置时钟：</strong></p>
-<img src="智能平衡车.assets/image-20220904110112661.png" alt="image-20220904110112661" style="zoom:50%;" />
+<img src="@source/课程实验/电子院小学期/智能平衡车.assets/image-20220904110112661.png" alt="image-20220904110112661" style="zoom:50%;" />
 <p>选择时钟源是内部晶振.</p>
 </li>
 <li>
 <p><strong>配置中断：</strong></p>
-<img src="智能平衡车.assets/image-20220904110323831.png" alt="image-20220904110323831" style="zoom:50%;" />
+<img src="@source/课程实验/电子院小学期/智能平衡车.assets/image-20220904110323831.png" alt="image-20220904110323831" style="zoom:50%;" />
 <p>使能中断.</p>
 <blockquote>
 <p><strong>备注</strong></p>
@@ -74,13 +73,13 @@
 </li>
 </ul>
 <p>配置适合自己使用的定时器需要经过一定的计算.</p>
-<img src="智能平衡车.assets/image-20220904111304062.png" alt="image-20220904111304062" style="zoom:50%;" />
+<img src="@source/课程实验/电子院小学期/智能平衡车.assets/image-20220904111304062.png" alt="image-20220904111304062" style="zoom:50%;" />
 <p>设置时钟源为内部时钟，，内部时钟是APB1或APB2（具体看手册）.</p>
-<img src="智能平衡车.assets/image-20220904111322401.png" alt="image-20220904111322401" style="zoom:50%;" />
+<img src="@source/课程实验/电子院小学期/智能平衡车.assets/image-20220904111322401.png" alt="image-20220904111322401" style="zoom:50%;" />
 <p>在parameter Setttings设置分频系数（PSC），counter为计数值.</p>
 <p>然后设置定时器的中断NVIC，有四种中断模式，这里选择update（即记到上限值）.</p>
 <p>可以在NVIC中适当降低它的优先级.</p>
-<img src="智能平衡车.assets/image-20220904111922418.png" alt="image-20220904111922418" style="zoom:50%;" />
+<img src="@source/课程实验/电子院小学期/智能平衡车.assets/image-20220904111922418.png" alt="image-20220904111922418" style="zoom:50%;" />
 <h2 id="pid算法" tabindex="-1"><a class="header-anchor" href="#pid算法" aria-hidden="true">#</a> PID算法</h2>
 <h3 id="什么是pid" tabindex="-1"><a class="header-anchor" href="#什么是pid" aria-hidden="true">#</a> 什么是PID</h3>
 <p>PID，即<strong>P</strong>roportion <strong>I</strong>ntegration <strong>D</strong>ifferentiation，实际上是一个公式，由<strong>比例项（Proportion ）</strong>，<strong>积分项（Integration ）</strong>，<strong>微分项（Differentiation）</strong> 三个部分组成，具体形式为：</p>
@@ -104,7 +103,6 @@ U(t)=k_p\{err(t)+\frac{1}{T_I} \int{err(t)dt} + \frac {T_D·derr(t)}{dt}\}
 <p>由一开始的概念我们可以知道，与 I 的不同点在于，<strong>I是计算累计误差，而D则是计算未来趋势</strong>，因此PD系统的反应速度更快，相对于PI系统会更快的到达目标位置附近，<strong>其调节方式首先还是调节P</strong>.</p>
 <h4 id="pid系统调节" tabindex="-1"><a class="header-anchor" href="#pid系统调节" aria-hidden="true">#</a> PID系统调节</h4>
 <p>首先我们先按照PI系统进行调节，先调P在调I，让系统有一定的过冲后达到稳定，然后<strong>开始调节D</strong>，慢慢增加D，将过冲补偿掉，直到系统稳定.</p>
-<h1 id="上手调试篇" tabindex="-1"><a class="header-anchor" href="#上手调试篇" aria-hidden="true">#</a> 上手调试篇</h1>
 <h2 id="本人在实习项目中的具体工作" tabindex="-1"><a class="header-anchor" href="#本人在实习项目中的具体工作" aria-hidden="true">#</a> 本人在实习项目中的具体工作</h2>
 <p>由于我的队友在焊接完LED点阵后的第一天就被隔离，小车的组装、调试、外观设计由我个人完成.</p>
 <h2 id="车模控制" tabindex="-1"><a class="header-anchor" href="#车模控制" aria-hidden="true">#</a> 车模控制</h2>

@@ -1,1 +1,14 @@
-export const data = JSON.parse("{\"key\":\"v-2e3eac9e\",\"path\":\"/slides.html\",\"title\":\"Slide page\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Slide page\",\"icon\":\"slides\",\"layout\":\"Slide\",\"summary\":\"@slidestart Slide Demo A simple slide demo and useful hints.\\r\\\" By Mr.Hope. Please scroll mousewheel down to the next slide\\\" --- Marking Slides 👇 -- Marking Slides Use --- to mark \",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://mister-hope.github.io/slides.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"Blog Demo\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Slide page\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2022-09-25T17:01:13.000Z\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2022-09-25T17:01:13.000Z\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"zh-cn\",\"href\":\"https://mister-hope.github.io/zh/slides.html\"}]]},\"excerpt\":\"\",\"headers\":[],\"git\":{\"createdTime\":1664125273000,\"updatedTime\":1664125273000,\"contributors\":[{\"name\":\"gao_sen_g\",\"email\":\"2322134363@qq.com\",\"commits\":1}]},\"readingTime\":{\"minutes\":3.24,\"words\":973},\"filePathRelative\":\"slides.md\",\"localizedDate\":\"September 26, 2022\"}")
+export const data = JSON.parse("{\"key\":\"v-2e3eac9e\",\"path\":\"/slides.html\",\"title\":\"幻灯片页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"幻灯片页\",\"icon\":\"slides\",\"layout\":\"Slide\",\"summary\":\"@slidestart 幻灯片演示 一个简单的幻灯片演示与各种小贴士。\\r\\\" 作者 Mr.Hope. 请滚动鼠标滚轮进入下一页\\\" --- 标注幻灯片 👇 -- 标注幻灯片 使用 --- 标注水平幻灯片 在水平幻灯片中使用 -- 分割垂直幻灯片 使用 `` 在幻灯片上添加属性 使用 `` 在前一个 HTML 元素上添加属性 --- Markdown 你可以在幻\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://www.gaosen.xyz/slides.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"GaoSen\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"幻灯片页\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:locale:alternate\",\"content\":\"en-US\"}],[\"link\",{\"rel\":\"alternate\",\"hreflang\":\"en-us\",\"href\":\"https://www.gaosen.xyz/en/slides.html\"}]]},\"excerpt\":\"\",\"headers\":[],\"readingTime\":{\"minutes\":4.51,\"words\":1352},\"filePathRelative\":\"slides.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

@@ -29,7 +29,7 @@
 </li>
 </ul>
 <div class="custom-container tip">
-<p class="custom-container-title">Tips</p>
+<p class="custom-container-title">提示</p>
 <p>二进制原码：0000 0000 0000 0000 0000 0000 0000 0101
 取反操作后：1111 1111 1111 1111 1111 1111 1111 1010
 有符号整数都是用补码来表示，而补码=反码+1

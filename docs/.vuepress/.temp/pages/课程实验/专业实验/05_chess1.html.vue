@@ -108,7 +108,7 @@
              <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>index<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>棋盘的css设计，这里我取了个巧，只要设置每个象棋的位置（包括暂时没有棋子的地方）的背景图为如下：</p>
-<p><img src="05_chess1.assets/image-20220525214814456.png" alt="image-20220525214814456" loading="lazy"></p>
+<p><img src="@source/课程实验/专业实验/05_chess1.assets/image-20220525214814456.png" alt="image-20220525214814456" loading="lazy"></p>
 <p>这样就能组合成一张宫格很多的图，且棋子都在格子的顶点处。然后在楚河汉界处设置<code v-pre>background: none</code>即可</p>
 </li>
 </ol>
